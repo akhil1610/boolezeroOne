@@ -23,7 +23,7 @@ export class FakeDataService {
         openingHour: 10,
         backgroundImage: '',
         avatarImage: '',
-        image: 'assets/ico/homemade.jpg',
+        image: 'assets/ico/Home Made_free-file.png',
         categories: [
           {
             id: 1,
