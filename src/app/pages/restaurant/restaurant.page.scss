@@ -70,7 +70,9 @@ ion-input {
 }
 
 ion-fab.special {
-  left: 0;
-  width: 100%;
+  left: 15%;
+  bottom: 30px;
+  width: 70%;
   margin-inline-start: 0;
+  --opacity: 0.8;
 }

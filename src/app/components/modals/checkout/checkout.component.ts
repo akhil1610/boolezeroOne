@@ -23,40 +23,6 @@ export class CheckoutComponent implements OnInit {
     await this.modalCtrl.dismiss();
   }
 
-  addToOrder(plate: any) {
-    plate.count += 1;
-    this.addToOrderService(plate);
-  }
-
-  add(plate: any) {
-    plate.count += 1;
-    this.addToOrderService(plate);
-  }
-
-  remove(plate: any) {
-    plate.count -= 1;
-
-    this.addToOrderService(plate);
-  }
-
-  addToOrderService(plate: any) {
-    const index = this.as.orders.findIndex((pl) => pl.id === plate.id);
-
-    if (index === -1) {
-      this.as.orders.push(plate);
-    } else {
-
-      if (plate.count === 0) {
-        this.as.orders.splice(index, 1);
-        return;
-      }
-
-      this.as.orders.splice(index, 1, plate);
-    }
-
-    this.calcTotal();
-  }
-
   calcTotal() {
     if (this.as.orders.length > 1)
       return this.as.orders.reduce((a, b) => a + ((b.price||0) * (b.count||0)), 0)
