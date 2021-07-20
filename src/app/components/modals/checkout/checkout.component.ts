@@ -24,10 +24,10 @@ export class CheckoutComponent implements OnInit {
   }
 
   calcTotal() {
-    if (this.as.orders.length > 1)
-      return this.as.orders.reduce((a, b) => a + ((b.price||0) * (b.count||0)), 0)
+    if (this.as.orders.length > 0)
+      return this.as.orders.reduce((a, b) => a + ((b.price||0) * (b.count||0)), 0).toFixed(2)
 
-    return this.as.orders[0].count * this.as.orders[0].price;
+    return 0;
   }
 
 
@@ -35,7 +35,7 @@ export class CheckoutComponent implements OnInit {
     const data = {
       id: 1,
       itemNames: this.as.orders.map((order) => order.name).join(","),
-      itemPrices: this.as.orders.map((order) => order.prices).join(","),
+      itemPrices: this.as.orders.map((order) => order.price).join(","),
       toPay: this.calcTotal(),
       CName: '123123',
       CAddress: this.address,
