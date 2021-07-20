@@ -20,7 +20,7 @@ export class SearchComponent implements OnInit {
   constructor(private modalCtrl: ModalController, public fds: FakeDataService) { }
 
   ngOnInit() {
-    const { categories, plates, avatarImage, backgroundImage } = this.fds.getRestaurant(this.restaurantId)
+    const { plates } = this.fds.getRestaurant(this.restaurantId)
 
     this.plates = plates;
     this.platesCopy = this.plates;
@@ -40,16 +40,5 @@ export class SearchComponent implements OnInit {
         return it.name.toLocaleLowerCase().includes(value);
       });
     }
-  }
-  addToOrder(plate: any) {
-    plate.count += 1;
-  }
-
-  add(plate: any) {
-    plate.count += 1;
-  }
-
-  remove(plate: any) {
-    plate.count -= 1;
   }
 }

@@ -59,7 +59,7 @@ export class CheckoutComponent implements OnInit {
 
   calcTotal() {
     if (this.as.orders.length > 1)
-      return this.as.orders.reduce((a, b) => (a.count * a.price) + (b.count * b.price))
+      return this.as.orders.reduce((a, b) => a + ((b.price||0) * (b.count||0)), 0)
 
     return this.as.orders[0].count * this.as.orders[0].price;
   }
