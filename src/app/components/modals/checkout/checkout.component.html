@@ -26,6 +26,18 @@
     <product-item *ngFor="let plate of orders" [plate]="plate"></product-item>
   </ion-list>
 
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <h3>
+          Name
+        </h3>
+      </ion-col>
+    </ion-row>
+    <ion-row style="border-bottom: 1px solid #ccc;">
+      <ion-input [(ngModel)]="userName" placeholder="Type in your name"></ion-input>
+    </ion-row>
+  </ion-grid>
   <ion-grid *ngIf="this.as.activeDelivery.id === 1">
     <ion-row>
       <ion-col>
@@ -76,10 +88,10 @@
     </ion-row>
     <ion-row>
       <ion-col>
-        Round Off
+        Delivery Fee
       </ion-col>
       <ion-col class="checkout-col">
-        RM 0.00
+        RM {{deliveryFee}}
       </ion-col>
     </ion-row>
     <ion-row style="border-top: 1px solid #ccc;">
@@ -87,7 +99,7 @@
         <p class="bold">Total:</p>
       </ion-col>
       <ion-col class="checkout-col">
-       <p class="bold">RM {{calcTotal()}}</p>
+       <p class="bold">RM {{(calcTotal() + deliveryFee).toFixed(2)}}</p>
       </ion-col>
     </ion-row>
   </ion-grid>
