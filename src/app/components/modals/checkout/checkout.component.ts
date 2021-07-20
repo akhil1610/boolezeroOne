@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { ModalController } from '@ionic/angular';
 import { AccountService } from './../../../services/account.service';
 
@@ -13,10 +13,17 @@ import { Browser } from '@capacitor/browser';
 export class CheckoutComponent implements OnInit {
   public orders: any = [];
   public address: string = "";
+  public userName: string = "";
+
+  @Input() phoneNumber: string;
+  @Input() deliveryFee: any;
+
   constructor(private modalCtrl: ModalController, public as: AccountService) { }
 
   ngOnInit() {
     this.orders = this.as.orders;
+
+    this.deliveryFee = parseFloat(this.deliveryFee)
   }
 
   async dismiss() {
@@ -25,7 +32,7 @@ export class CheckoutComponent implements OnInit {
 
   calcTotal() {
     if (this.as.orders.length > 0)
-      return this.as.orders.reduce((a, b) => a + ((b.price||0) * (b.count||0)), 0).toFixed(2)
+      return parseFloat(this.as.orders.reduce((a, b) => a + ((b.price||0) * (b.count||0)), 0).toFixed(2))
 
     return 0;
   }
@@ -35,13 +42,13 @@ export class CheckoutComponent implements OnInit {
       id: 1,
       itemNames: this.as.orders.map((order) => order.name).join(","),
       itemPrices: this.as.orders.map((order) => order.price).join(","),
-      toPay: this.calcTotal(),
-      CName: '123123',
+      toPay: (this.calcTotal() + this.deliveryFee).toFixed(2),
+      CName: this.userName,
       CAddress: this.address,
       deliveryOpt: 'Delivery'
     };
 
-    const url = `https://wa.me/60173934825?text=
+    const url = `https://wa.me/${this.phoneNumber}?text=
     %0aOrder No:%20 ${data.id}%0a
       Name:%20 ${data.CName}%0a
       Address:%20  ${data.CAddress}%0a

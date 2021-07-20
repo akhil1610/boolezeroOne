@@ -24,6 +24,10 @@ export class FakeDataService {
         openingHour: 10,
         backgroundImage: '',
         avatarImage: '',
+        logo: '',
+        icon: '',
+        phoneNumber: '1232341234',
+        deliveryFee: 1.43,
         image: 'assets/ico/Home Made_free-file.png',
         categories: [
           {
@@ -39,7 +43,7 @@ export class FakeDataService {
             name: "Hara Bhara kabab",
             description: "Hara Bhara kabab 1pcs",
             price:2.00,
-            count: 0,            
+            count: 0,
             image:
               "assets/s1/hara-bhara-kabab.jpg",
           },
@@ -329,7 +333,7 @@ export class FakeDataService {
             count: 0,
             image:
               "assets/s2/ManHaircut.jpg",
-            
+
           },
           {
             id: 2,
@@ -351,7 +355,7 @@ export class FakeDataService {
             image:
               "assets/s2/ChildrenHairCut.jpg",
           },
-          
+
         ],
       },
       // Store #3

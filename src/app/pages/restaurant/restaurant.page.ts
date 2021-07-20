@@ -32,6 +32,8 @@ export class RestaurantPage implements OnInit {
 
   public selectedCategory: number = 1;
 
+  public restaurant: any = {};
+
   constructor(public fds: FakeDataService, public route: ActivatedRoute, public modalController: ModalController, public popOvercontroller: PopoverController, public as: AccountService) {
     this.id = this.route.snapshot.paramMap.get('id');
 
@@ -40,6 +42,8 @@ export class RestaurantPage implements OnInit {
     this.categories = categories;
     this.plates = plates;
     this.platesCopy = this.plates;
+
+    this.restaurant = this.fds.getRestaurant(this.id);
 
     if (avatarImage && backgroundImage) {
       this.avatarImage = avatarImage;
@@ -142,9 +146,6 @@ export class RestaurantPage implements OnInit {
   }
 
   async openOptions(plate) {
-    console.log(plate);
-
-
     const modal = await this.modalController.create({
       component: PlateDetailsComponent,
       componentProps: {
@@ -172,10 +173,13 @@ export class RestaurantPage implements OnInit {
   }
 
   async goToPay() {
+
+
     const modal = await this.modalController.create({
       component: CheckoutComponent,
       componentProps: {
-        restaurantId: this.id
+        deliveryFee: this.restaurant.deliveryFee,
+        phoneNumber: this.restaurant.phoneNumber,
       }
     });
     return await modal.present();
