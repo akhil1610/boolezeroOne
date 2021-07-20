@@ -1,0 +1,27 @@
+<ion-item class="separate"  lines="inset">
+  <ion-thumbnail slot="start">
+    <img class="border" [src]="plate.image">
+  </ion-thumbnail>
+  <ion-label text-wrap>
+    <p style="color: black">{{plate.name}}</p>
+    <p style="color: black">{{plate.description}}</p>
+    <p>${{plate.price.toFixed(2)}}</p>
+  </ion-label>
+
+  <ion-button *ngIf="plate.count === 0" (click)="addToOrder(plate)" mode="ios" size="small" fill="outline" slot="end"
+    color="warning">
+    Add
+  </ion-button>
+
+  <ion-button *ngIf="plate.count >= 1" (click)="remove(plate)" mode="ios" size="small" fill="outline" slot="end"
+    color="primary">
+    <ion-icon name="remove-outline"></ion-icon>
+  </ion-button>
+
+  <input *ngIf="plate.count >= 1" type="number" value="{{plate.count}}" class="input-width" slot="end" />
+
+  <ion-button class="special" *ngIf="plate.count >= 1" (click)="add(plate)" mode="ios" size="small" fill="outline"
+    slot="end" color="primary">
+    <ion-icon name="add-outline"></ion-icon>
+  </ion-button>
+</ion-item>

@@ -15,6 +15,10 @@ import { MenuComponent } from './../../components/popovers/menu/menu.component';
 import { PlateDetailsComponent } from './../../components/modals/plate-details/plate-details.component';
 import { CheckoutComponent } from './../../components/modals/checkout/checkout.component';
 
+import { ProductItemComponent } from './../../components/functinals/product-item/product-item.component';
+
+
+
 @NgModule({
   imports: [
     CommonModule,
@@ -22,6 +26,6 @@ import { CheckoutComponent } from './../../components/modals/checkout/checkout.c
     IonicModule,
     RestaurantPageRoutingModule
   ],
-  declarations: [RestaurantPage, SearchComponent, FiltersComponent, DeliveryComponent, MenuComponent, PlateDetailsComponent, CheckoutComponent]
+  declarations: [RestaurantPage, SearchComponent, FiltersComponent, DeliveryComponent, MenuComponent, PlateDetailsComponent, CheckoutComponent, ProductItemComponent]
 })
 export class RestaurantPageModule {}
