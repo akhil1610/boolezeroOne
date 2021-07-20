@@ -13,14 +13,14 @@
 
 <ion-content>
   <ion-list-header>
-    Preferences
+    Preferences <ion-button mode="ios" fill="clear" (click)="clearPreference()" >Clear</ion-button>
   </ion-list-header>
-  <ion-button  *ngFor="let pf of preferences"  (click)="setActivePref(pf.id)" fill="{{pf.id === activePref ? 'solid': 'outline'}}"> {{ pf.label }} </ion-button>
+  <ion-button mode="ios" *ngFor="let pf of preferences"  (click)="setActivePref(pf.id)" fill="{{pf.id === activePref ? 'solid': 'outline'}}"> {{ pf.label }} </ion-button>
 
   <ion-list-header>
-    Price
+    Price <ion-button mode="ios" fill="clear" (click)="clearPrice()">Clear</ion-button>
   </ion-list-header>
-  <ion-button *ngFor="let ps of prices" (click)="setActivePrice(ps.id)" fill="{{ps.id === activePrice ? 'solid': 'outline'}}"> {{ ps.label }} </ion-button>
+  <ion-button mode="ios" *ngFor="let ps of prices" (click)="setActivePrice(ps.id)" fill="{{ps.id === activePrice ? 'solid': 'outline'}}"> {{ ps.label }} </ion-button>
 </ion-content>
 
 <ion-footer class="ion-no-border">

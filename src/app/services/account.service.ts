@@ -9,6 +9,9 @@ export class AccountService {
   public activeDelivery: any = {label: "Delivery", id: 1, iconName: "location-outline"};
   public activeOrderType: any = {label: "ASAP", id: 1,  iconName: "restaurant-outline"};
 
+  public activePreferenceFilter: number = 0;
+  public activePriceFilter: number = 0;
+
   constructor() { }
 
   getOrders() {
