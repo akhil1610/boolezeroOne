@@ -15,7 +15,7 @@ export class FakeDataService {
 
   getData(): any[] {
     return [
-      // Store #1
+      // Store #01
       {
         id: 1,
         name: 'Home Made Indian Food',
