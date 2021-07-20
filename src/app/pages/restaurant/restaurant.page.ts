@@ -89,7 +89,46 @@ export class RestaurantPage implements OnInit {
         restaurantId: this.id
       }
     });
-    return await modal.present();
+
+    await modal.present();
+
+    const { data } = await modal.onWillDismiss();
+    this.setFilters(data);
+  }
+
+
+
+  setFilters(data: any) {
+    // price filter
+    const prices = {
+      '1': 5,
+      '2': 10,
+      '3': 15,
+      '4': 20,
+      '5': 30,
+    };
+
+    const preferences = {
+      '1': 'veggie',
+      '2': 'nonVeggie',
+      '3': 'kosher',
+      '4': 'glutenFree',
+      '5': 'available',
+    }
+
+    if (data.price) {
+      const currentPriceFilter = prices[data.price];
+      this.platesCopy = (!data.preference) ? this.plates.filter((plate) => plate.price <= currentPriceFilter) : this.platesCopy.filter((plate) => plate.price <= currentPriceFilter);
+    }
+
+    if (data.preference) {
+      const currentPreferenceFilter = preferences[data.preference];
+      this.platesCopy = (!data.price) ?  this.plates.filter((plate) => plate[currentPreferenceFilter] === true) :  this.platesCopy.filter((plate) => plate[currentPreferenceFilter] === true);
+    }
+
+    if (!data.price && !data.preference) {
+      this.platesCopy = this.plates;
+    }
   }
 
   async presentModalDelivery() {
