@@ -30,7 +30,6 @@ export class CheckoutComponent implements OnInit {
     return 0;
   }
 
-
   async goToWhats() {
     const data = {
       id: 1,

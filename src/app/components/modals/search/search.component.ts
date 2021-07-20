@@ -14,6 +14,8 @@ export class SearchComponent implements OnInit {
   public plates: any = [];
   public platesCopy: any = [];
 
+  public searchText: string = "";
+
 
   @Input() restaurantId: string;
 

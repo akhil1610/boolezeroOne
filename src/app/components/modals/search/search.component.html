@@ -10,12 +10,12 @@
     </ion-buttons>
   </ion-toolbar>
   <ion-toolbar>
-    <ion-searchbar (ionChange)="search($event)" debounce="500" mode="md" placeholder="Search for Menu Items"></ion-searchbar>
+    <ion-searchbar [(ngModel)]="searchText" mode="md" placeholder="Search for Menu Items"></ion-searchbar>
   </ion-toolbar>
 </ion-header>
 
 <ion-content>
   <ion-list>
-    <product-item *ngFor="let plate of platesCopy" [plate]="plate"></product-item>
+    <product-item *ngFor="let plate of platesCopy | searchProductFilter: searchText" [plate]="plate"></product-item>
   </ion-list>
 </ion-content>

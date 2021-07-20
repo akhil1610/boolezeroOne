@@ -16,7 +16,7 @@ import { PlateDetailsComponent } from './../../components/modals/plate-details/p
 import { CheckoutComponent } from './../../components/modals/checkout/checkout.component';
 
 import { ProductItemComponent } from './../../components/functinals/product-item/product-item.component';
-
+import { SearchProductFilterPipe } from './../../pipes/search-product-filter.pipe';
 
 
 @NgModule({
@@ -26,6 +26,6 @@ import { ProductItemComponent } from './../../components/functinals/product-item
     IonicModule,
     RestaurantPageRoutingModule
   ],
-  declarations: [RestaurantPage, SearchComponent, FiltersComponent, DeliveryComponent, MenuComponent, PlateDetailsComponent, CheckoutComponent, ProductItemComponent]
+  declarations: [RestaurantPage, SearchComponent, FiltersComponent, DeliveryComponent, MenuComponent, PlateDetailsComponent, CheckoutComponent, ProductItemComponent, SearchProductFilterPipe]
 })
 export class RestaurantPageModule {}
