@@ -1,0 +1,37 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      {{plate.name}}
+    </ion-title>
+    <ion-buttons slot="primary">
+      <ion-button color="dark" (click)="dismiss()">
+        <ion-icon slot="icon-only" name="close-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <ion-radio-group mode="md">
+      <ion-list-header>
+        <ion-label>
+          Choose Gravy
+        </ion-label>
+      </ion-list-header>
+
+      <ion-item *ngFor="let option of plate.options">
+        <ion-label>{{option.name}}</ion-label>
+        <ion-radio value="{{option.id}}"></ion-radio>
+      </ion-item>
+    </ion-radio-group>
+  </ion-list>
+</ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-button (click)="dismiss()" color="danger" expand="block" size="large">
+      Next
+    </ion-button>
+  </ion-toolbar>
+</ion-footer>

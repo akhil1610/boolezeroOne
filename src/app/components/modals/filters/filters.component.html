@@ -1,0 +1,32 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Get What You Want!
+    </ion-title>
+    <ion-buttons slot="primary">
+      <ion-button color="dark" (click)="dismiss()">
+        <ion-icon slot="icon-only" name="close-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-list-header>
+    Preferences
+  </ion-list-header>
+  <ion-button  *ngFor="let pf of preferences"  (click)="setActivePref(pf.id)" fill="{{pf.id === activePref ? 'solid': 'outline'}}"> {{ pf.label }} </ion-button>
+
+  <ion-list-header>
+    Price
+  </ion-list-header>
+  <ion-button *ngFor="let ps of prices" (click)="setActivePrice(ps.id)" fill="{{ps.id === activePrice ? 'solid': 'outline'}}"> {{ ps.label }} </ion-button>
+</ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-button (click)="dismiss()" color="danger" expand="block" size="large">
+      Apply
+    </ion-button>
+  </ion-toolbar>
+</ion-footer>

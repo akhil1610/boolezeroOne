@@ -1,0 +1,134 @@
+<ion-content>
+  <section class="header" style="background: url('{{backgroundImage}}'); background-position: center; background-size: cover; filter: blur(0.5px);">
+    <div class="header__user-container">
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <img
+            [src]="avatarImage" />
+        </ion-avatar>
+        <ion-label>
+          <h1 class="name">
+            Hi <span>Guest</span>
+          </h1>
+        </ion-label>
+      </ion-item>
+    </div>
+  </section>
+
+  <section class="cards">
+    <ion-card mode="md">
+      <ion-item lines="none">
+        <ion-thumbnail slot="start">
+          <img src="./../../assets/ZERO.svg">
+        </ion-thumbnail>
+        <ion-label>
+          <p class="title">Zero</p>
+          <p>Use it everyday</p>
+        </ion-label>
+      </ion-item>
+    </ion-card>
+    <ion-card mode="md">
+      <ion-item lines="none">
+        <ion-label text-wrap>
+          <p style="font-weight: bolder">Welcome to Zero Diners Loyalty Program</p>
+          <p>Get exciting rewards on you frequent visits to Zero</p>
+        </ion-label>
+        <ion-avatar slot="end">
+          <img
+            src="https://img2.freepng.es/20180627/coq/kisspng-vegetarian-cuisine-indian-cuisine-food-recipe-side-nasi-lemak-5b33652e9fdc59.8859384915300948946548.jpg">
+        </ion-avatar>
+      </ion-item>
+      <ion-button class="reset" mode="ios" expand="full" size="small" color="warning">
+        Join Now
+        <ion-icon name="arrow-forward-outline" slot="end"></ion-icon>
+      </ion-button>
+    </ion-card>
+  </section>
+
+
+  <section class="delivery">
+    <ion-item lines="none">
+      <ion-avatar slot="start">
+        <img
+          src="https://play-lh.googleusercontent.com/ltHTtAH-Ls6eEiWVRE1WhpRh2xDteVk9GPbYKCJkMR67S8Su7Qgtc0rMEGxm5yyCHg">
+      </ion-avatar>
+      <ion-label text-wrap>
+        <p style="color: black">{{this.as.activeDelivery.label}}</p>
+        <p>{{this.as.activeOrderType.label}}</p>
+      </ion-label>
+      <ion-button (click)="presentModalDelivery()" mode="ios" fill="clear" slot="end">
+        Change
+      </ion-button>
+    </ion-item>
+  </section>
+
+  <section class="search-header">
+    <ion-grid>
+      <ion-row>
+        <ion-col size="6">
+          <ion-item lines="none">
+            <ion-label slot="start" text-wrap color="dark">Veg. Only</ion-label>
+            <ion-toggle  slot="start" (ionChange)="onVegChange($event)" mode="md"></ion-toggle>
+          </ion-item>
+        </ion-col>
+        <ion-col size="6">
+          <div style="text-align: right;">
+            <ion-button  mode="ios" (click)="presentModal()" color="light">
+              <ion-icon name="search-outline"></ion-icon>
+            </ion-button>
+            <ion-button mode="ios" (click)="presentModalFilter()" color="light">
+              <ion-icon name="funnel-outline"></ion-icon>
+            </ion-button>
+          </div>
+        </ion-col>
+      </ion-row>
+    </ion-grid>
+
+    <ion-segment mode="md" scrollable (ionChange)="segmentChanged($event)" [(ngModel)]="selectedCategory" >
+      <ion-segment-button *ngFor="let cat of categories" [value]="cat.id">
+        <ion-label>{{cat.title}}</ion-label>
+      </ion-segment-button>
+    </ion-segment>
+  </section>
+
+  <section class="plates">
+    <ion-list>
+      <ion-item class="separate" *ngFor="let plate of platesCopy" lines="inset">
+        <ion-thumbnail slot="start">
+          <img class="border" [src]="plate.image">
+        </ion-thumbnail>
+        <ion-label text-wrap>
+          <p style="color: black">{{plate.name}}</p>
+          <p>${{plate.price}}</p>
+        </ion-label>
+
+        <ion-button *ngIf="plate.count === 0" (click)="addToOrder(plate)" mode="ios" size="small" fill="outline" slot="end" color="warning">
+          Add
+        </ion-button>
+
+        <ion-button *ngIf="plate.count >= 1" (click)="remove(plate)" mode="ios" size="small" fill="outline" slot="end" color="primary">
+          <ion-icon name="remove-outline"></ion-icon>
+        </ion-button>
+
+        <input *ngIf="plate.count >= 1" type="number" value="{{plate.count}}" class="input-width" slot="end" />
+
+        <ion-button class="special" *ngIf="plate.count >= 1" (click)="add(plate)" mode="ios" size="small" fill="outline" slot="end" color="primary">
+          <ion-icon name="add-outline"></ion-icon>
+        </ion-button>
+      </ion-item>
+    </ion-list>
+  </section>
+  <!--<ion-fab vertical="bottom" horizontal="center" slot="fixed">
+    <ion-button (click)="settingsPopover()" color="primary" expand="block" size="small">
+      <ion-icon name="restaurant-outline" slot="start"></ion-icon>
+      Open Menu
+    </ion-button>
+  </ion-fab> -->
+
+  <ion-fab *ngIf="this.as.orders.length > 0" class="special" vertical="bottom" horizontal="center" slot="fixed">
+    <ion-button (click)="goToPay()" color="primary" expand="block" shape="round">
+      <ion-icon name="cart-outline" slot="start"></ion-icon>
+      Order Now ({{this.as.orders.length}})
+    </ion-button>
+  </ion-fab>
+</ion-content>

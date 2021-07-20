@@ -1,0 +1,7 @@
+{
+  "name": "easyeat",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

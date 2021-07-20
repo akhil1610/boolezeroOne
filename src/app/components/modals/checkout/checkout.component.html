@@ -1,0 +1,112 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Checkout
+    </ion-title>
+    <ion-buttons slot="primary">
+      <ion-button color="dark" (click)="dismiss()">
+        <ion-icon slot="icon-only" name="close-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <h3>
+          Your Cart
+        </h3>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+
+  <ion-list>
+    <ion-item class="separate" *ngFor="let plate of orders" lines="inset">
+      <ion-thumbnail slot="start">
+        <img class="border" [src]="plate.image">
+      </ion-thumbnail>
+      <ion-label text-wrap>
+        <p style="color: black">{{plate.name}}</p>
+        <p>RM{{plate.price}}</p>
+      </ion-label>
+
+      <ion-button *ngIf="plate.count === 0" (click)="addToOrder(plate)" mode="ios" size="small" fill="outline"
+        slot="end" color="warning">
+        Add
+      </ion-button>
+
+      <ion-button *ngIf="plate.count >= 1" (click)="remove(plate)" mode="ios" size="small" fill="outline" slot="end"
+        color="primary">
+        <ion-icon name="remove-outline" slot="icon-only"></ion-icon>
+      </ion-button>
+
+      <input *ngIf="plate.count >= 1" type="number" min="0" max="8" value="{{plate.count}}" class="input-width"
+        slot="end" />
+
+      <ion-button class="special" *ngIf="plate.count >= 1" (click)="add(plate)" mode="ios" size="small" fill="outline" slot="end"
+        color="primary">
+        <ion-icon name="add-outline" slot="icon-only"></ion-icon>
+      </ion-button>
+      <ion-label *ngIf="plate.count >= 1" slot="end">
+        {{plate.count * plate.price}}
+      </ion-label>
+    </ion-item>
+  </ion-list>
+
+  <ion-grid *ngIf="this.as.activeDelivery.id === 1">
+    <ion-row>
+      <ion-col>
+        <h3>
+          Address
+        </h3>
+      </ion-col>
+    </ion-row>
+    <ion-row style="border-bottom: 1px solid #ccc;">
+      <ion-textarea [(ngModel)]="address" clearOnEdit="true"></ion-textarea>
+    </ion-row>
+  </ion-grid>
+
+  <ion-grid>
+    <ion-row>
+      <ion-col>
+        <h3>
+          Bill details
+        </h3>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        Item Total
+      </ion-col>
+      <ion-col class="checkout-col">
+        RM {{calcTotal()}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        Round Off
+      </ion-col>
+      <ion-col class="checkout-col">
+        RM 0.00
+      </ion-col>
+    </ion-row>
+    <ion-row style="border-top: 1px solid #ccc;">
+      <ion-col>
+        <p class="bold">Total:</p>
+      </ion-col>
+      <ion-col class="checkout-col">
+       <p class="bold">RM {{calcTotal()}}</p>
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+</ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-button (click)="goToWhats()" color="primary" expand="block" size="large">
+      Order Now
+    </ion-button>
+  </ion-toolbar>
+</ion-footer>

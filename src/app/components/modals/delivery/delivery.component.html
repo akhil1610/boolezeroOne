@@ -1,0 +1,41 @@
+<ion-header>
+</ion-header>
+
+<ion-content>
+  <ion-list-header>
+    Change Options
+  </ion-list-header>
+
+  <ion-item (click)="setActiveOrderType(ot)" *ngFor="let ot of orderType">
+    <ion-button fill="clear" size="large" slot="start" color="dark">
+      <ion-icon slot="icon-only" name="{{ot.iconName}}" slot="end"></ion-icon>
+    </ion-button>
+    <ion-label>{{ot.label}}</ion-label>
+    <ion-button *ngIf="orderActiveType === ot.id" slot="end" color="success" fill="clear" size="large">
+      <ion-icon slot="icon-only" name="checkmark-outline" slot="end"></ion-icon>
+    </ion-button>
+  </ion-item>
+
+  <ion-list-header>
+    Select Order Type
+  </ion-list-header>
+
+  <ion-item (click)="setActiveOrderTime(ot)" *ngFor="let ot of orderTime">
+    <ion-button fill="clear" size="large" slot="start" color="dark">
+      <ion-icon slot="icon-only" name="{{ot.iconName}}" slot="end"></ion-icon>
+    </ion-button>
+    <ion-label>{{ot.label}}</ion-label>
+    <ion-button *ngIf="orderActiveTime=== ot.id" slot="end" color="success" fill="clear" size="large">
+      <ion-icon slot="icon-only" name="checkmark-outline" slot="end"></ion-icon>
+    </ion-button>
+  </ion-item>
+
+</ion-content>
+
+<ion-footer class="ion-no-border">
+  <ion-toolbar>
+    <ion-button (click)="dismiss()" color="danger" expand="block" size="large">
+      Continue
+    </ion-button>
+  </ion-toolbar>
+</ion-footer>
