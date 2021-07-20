@@ -43,6 +43,25 @@
     <ion-row>
       <ion-col>
         <h3>
+          Delivery Options
+        </h3>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <ion-list>
+          <ion-radio-group mode="md" value="{{this.as.activeDelivery.id}}">
+            <ion-item>
+              <ion-radio slot="start" value="{{this.as.activeDelivery.id}}"></ion-radio>
+              <ion-label>{{this.as.activeDelivery.label}}</ion-label>
+            </ion-item>
+          </ion-radio-group>
+        </ion-list>
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col>
+        <h3>
           Bill details
         </h3>
       </ion-col>
