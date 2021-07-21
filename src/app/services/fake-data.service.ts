@@ -28,7 +28,7 @@ export class FakeDataService {
         icon: '',
         phoneNumber: '1232341234',
         deliveryFee: 1.43,
-        image: 'assets/ico/Home Made_free-file.png',
+        image: 'assets/s1/icon/HomeMade.png',
         categories: [
           {
             id: 1,
