@@ -49,7 +49,7 @@ export class CheckoutComponent implements OnInit {
     };
     const url = `https://wa.me/${this.phoneNumber}?text=%0a
     ${data.CName},would like to order the following:-%0a%0a
-    ------------------------------%0a%0a
+    --------------------%0a%0a
     Order No:%20 ${data.id}%0a%0a
     Item Name:%20  ${data.itemNames}%0a
     Item Price:%20  ${data.itemPrices}%0a%0a
