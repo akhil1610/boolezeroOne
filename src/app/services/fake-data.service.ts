@@ -23,7 +23,7 @@ export class FakeDataService {
         qualification: 5,
         openingHour: 10,
         backgroundImage: 'assets/s1/banner/VegetarianFood.jpg',
-        avatarImage: '',
+        avatarImage: 'assets/s1/banner/VegetarianFood.jpg',
         logo: 'assets/s1/icon/HomeMade.png',
         icon: '',
         phoneNumber: '1232341234',
