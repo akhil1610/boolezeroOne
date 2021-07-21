@@ -27,12 +27,17 @@ export class FakeDataService {
         logo: 'assets/s1/icon/HomeMade.png',
         icon: '',
         phoneNumber: '60109027298',
-        deliveryFee: 1.43,
+        deliveryFee: 0.00,
         image: 'assets/s1/icon/HomeMade.png',
         categories: [
           {
             id: 1,
             title: "Main",
+            total: 2,
+          },
+          {
+            id: 2,
+            title: "Snacks",
             total: 2,
           },
         ],
@@ -69,7 +74,7 @@ export class FakeDataService {
           },
           {
             id: 4,
-            categoryId: 4,
+            categoryId: 2,
             name: "Veg Biryani",
             description: "this is just example",
             price: 13.50,
@@ -78,7 +83,7 @@ export class FakeDataService {
           },
           {
             id: 5,
-            categoryId: 4,
+            categoryId: 2,
             name: "Puran poli",
             description: "Puran poli 2pcs",
             price: 6.00,
@@ -117,7 +122,7 @@ export class FakeDataService {
           },
           {
             id: 9,
-            categoryId: 4,
+            categoryId: 2,
             name: "Paneer Tikki",
             description: "Paneer Tikki 2pcs",
             price: 6.00,
@@ -135,7 +140,7 @@ export class FakeDataService {
           },
           {
             id: 11,
-            categoryId: 4,
+            categoryId: 2,
             name: "Cheese Spring Roll",
             description: "Cheese Spring Roll 1pcs",
             price: 2.00,
@@ -318,7 +323,7 @@ export class FakeDataService {
         logo: 'assets/s2/icon/Capture-HairCutSaloon.PNG',
         icon: '',
         phoneNumber: '601162359540',
-        deliveryFee: 1.43,
+        deliveryFee: 0.0,
        image: 'assets/s2/icon/Capture-HairCutSaloon.PNG',
         categories: [
           {
@@ -374,7 +379,7 @@ export class FakeDataService {
         logo: 'assets/s3/logo/Logo.jpeg',
         icon: '',
         phoneNumber: '60173934825',
-        deliveryFee: 1.43,
+        deliveryFee: 0.00,
         image: 'assets/s3/logo/Logo.jpeg',
         categories: [
           {
@@ -428,7 +433,7 @@ export class FakeDataService {
         logo: 'assets/s4/StoreLogo/Capture-MobileTopUpLogo.png',
         icon: '',
         phoneNumber: '1232341234',
-        deliveryFee: 1.43,
+        deliveryFee: 0.00,
         image: 'assets/s4/StoreLogo/Capture-MobileTopUpLogo.png',
         categories: [
           {
@@ -563,7 +568,7 @@ export class FakeDataService {
         logo: 'assets/s5/icon/ch.jpg',
         icon: '',
         phoneNumber: '1232341234',
-        deliveryFee: 1.43,
+        deliveryFee: 0.00,
         image: 'assets/s5/icon/ch.jpg',
         categories: [
           {
@@ -662,7 +667,7 @@ export class FakeDataService {
         logo: 'assets/s6/icon/TanjungSepatSeafoodLogo.jpg',
         icon: '',
         phoneNumber: '1232341234',
-        deliveryFee: 1.43,
+        deliveryFee: 0.00,
         image: 'assets/s6/icon/TanjungSepatSeafoodLogo.jpg',
         categories: [
           {

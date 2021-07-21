@@ -5,7 +5,7 @@
   <ion-label text-wrap>
     <p style="color: black">{{plate.name}}</p>
     <p style="color: #999">{{plate.description}}</p>
-    <p>${{plate.price.toFixed(2)}}</p>
+    <p>RM: {{plate.price.toFixed(2)}}</p>
   </ion-label>
 
   <ion-button *ngIf="plate.count === 0" (click)="addToOrder(plate)" mode="ios" size="small" fill="outline" slot="end"
