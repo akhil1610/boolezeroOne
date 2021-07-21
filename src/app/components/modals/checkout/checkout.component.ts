@@ -48,14 +48,28 @@ export class CheckoutComponent implements OnInit {
       deliveryOpt: 'Delivery'
     };
 
-    const url = `https://wa.me/${this.phoneNumber}?text=
-    %0aOrder No:%20 ${data.id}%0a
-      Name:%20 ${data.CName}%0a
-      Address:%20  ${data.CAddress}%0a
-      Delivery Type:%20${this.as.activeDelivery.label}%0a
-      Item Name:%20  ${data.itemNames}%0a
-      Item Price:%20  ${data.itemPrices}%0a
-      Total Amount:%20  ${data.toPay}%0a`;
+  //   const url = `https://wa.me/${this.phoneNumber}?text=
+  //   %0aOrder No:%20 ${data.id}%0a
+  //     Name:%20 ${data.CName}%0a
+  //     Address:%20  ${data.CAddress}%0a
+  //     Delivery Type:%20${this.as.activeDelivery.label}%0a
+  //     Item Name:%20  ${data.itemNames}%0a
+  //     Item Price:%20  ${data.itemPrices}%0a
+  //     Total Amount:%20  ${data.toPay}%0a`;
+
+  //   await Browser.open({ url });
+  // }
+    const url = `https://wa.me/${this.phoneNumber}?text=%0a
+    ${data.CName},would like to order the following:-%0a
+    ------------------------------%0a
+    Order No:%20 ${data.id}%0a
+    Item Name:%20  ${data.itemNames}%0a
+    Item Price:%20  ${data.itemPrices}%0a
+    Total Amount:%20 ${data.toPay}%0a
+    Address:%20 ${data.CAddress}%0a
+    Delivery Type:%20${this.as.activeDelivery.label}%0a`;
+   
+    
 
     await Browser.open({ url });
   }

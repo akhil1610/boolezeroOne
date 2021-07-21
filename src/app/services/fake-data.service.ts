@@ -26,7 +26,7 @@ export class FakeDataService {
         avatarImage: 'assets/s1/banner/VegetarianFood.jpg',
         logo: 'assets/s1/icon/HomeMade.png',
         icon: '',
-        phoneNumber: '1232341234',
+        phoneNumber: '60109027298',
         deliveryFee: 1.43,
         image: 'assets/s1/icon/HomeMade.png',
         categories: [
@@ -72,7 +72,7 @@ export class FakeDataService {
             categoryId: 4,
             name: "Veg Biryani",
             description: "this is just example",
-            price: 13.44,
+            price: 13.50,
             count: 0,
             image: "assets/s1/vegbiryani.jpg",
           },
@@ -101,7 +101,7 @@ export class FakeDataService {
             categoryId: 3,
             name: "Sev tameta nu shaak",
             description: "this is just example",
-            price: 9.44,
+            price: 9.50,
             count: 0,
             image:
               "assets/s1/sev-tameta-nu-shaak-recipe-1.jpg",
@@ -317,7 +317,7 @@ export class FakeDataService {
         avatarImage: 'assets/s2/banner/Haircut.jpg',
         logo: 'assets/s2/icon/Capture-HairCutSaloon.PNG',
         icon: '',
-        phoneNumber: '1232341234',
+        phoneNumber: '601162359540',
         deliveryFee: 1.43,
        image: 'assets/s2/icon/Capture-HairCutSaloon.PNG',
         categories: [
@@ -373,7 +373,7 @@ export class FakeDataService {
         avatarImage: 'assets/s3/banner/grocery.jpg',
         logo: 'assets/s3/logo/Logo.jpeg',
         icon: '',
-        phoneNumber: '1232341234',
+        phoneNumber: '60173934825',
         deliveryFee: 1.43,
         image: 'assets/s3/logo/Logo.jpeg',
         categories: [
