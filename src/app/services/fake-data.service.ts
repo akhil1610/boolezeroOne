@@ -371,11 +371,11 @@ export class FakeDataService {
         openingHour: 10,
         backgroundImage: 'assets/s3/banner/grocery.jpg',
         avatarImage: 'assets/s3/banner/grocery.jpg',
-        logo: '',
+        logo: 'assets/s3/logo/Logo.jpeg',
         icon: '',
         phoneNumber: '1232341234',
         deliveryFee: 1.43,
-        image: '',
+        image: 'assets/s3/logo/Logo.jpeg',
         categories: [
           {
             id: 1,
@@ -392,7 +392,7 @@ export class FakeDataService {
             price: 20.00,
             count:0,
             image:
-              "assets/s3/AhChongDurian-SKU1.jpeg",
+              "assets/s3/AhChongDurian-SKU1.PNG",
           },
           {
             id: 2,
@@ -402,7 +402,7 @@ export class FakeDataService {
             price: 35.00,
             count:0,
             image:
-              "assets/s3/AhChongDurian-SKU2.jpeg",
+              "assets/s3/AhChongDurian-SKU2.PNG",
           },
           {
             id: 3,
@@ -412,7 +412,7 @@ export class FakeDataService {
             price: 80.00,
             count:0,
             image:
-              "assets/s3/AhChongDurian-SKU3.jpeg",
+              "assets/s3/AhChongDurian-SKU3.PNG",
           },
         ],
       },
