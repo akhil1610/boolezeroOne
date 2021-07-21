@@ -24,11 +24,11 @@ export class FakeDataService {
         openingHour: 10,
         backgroundImage: 'assets/s1/banner/VegetarianFood.jpg',
         avatarImage: 'assets/s1/banner/VegetarianFood.jpg',
-        logo: 'assets/s1/icon/HomeMade.png',
+        logo: 'assets/s1/icon/logo_transparent.png',
         icon: '',
         phoneNumber: '60108200805',
         deliveryFee: 0.00,
-        image: 'assets/s1/icon/HomeMade.png',
+        image: 'assets/s1/icon/logo_transparent.png',
         categories: [
           {
             id: 1,

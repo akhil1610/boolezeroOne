@@ -83,7 +83,7 @@
         Item Total
       </ion-col>
       <ion-col class="checkout-col">
-        RM {{calcTotal()}}
+        RM {{(calcTotal()).toFixed(2)}}
       </ion-col>
     </ion-row>
     <ion-row>
@@ -91,7 +91,7 @@
         Delivery Fee
       </ion-col>
       <ion-col class="checkout-col">
-        RM {{deliveryFee}}
+        RM {{(deliveryFee).toFixed(2)}}
       </ion-col>
     </ion-row>
     <ion-row style="border-top: 1px solid #ccc;">
