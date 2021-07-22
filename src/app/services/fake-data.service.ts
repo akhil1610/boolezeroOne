@@ -18,7 +18,7 @@ export class FakeDataService {
       // Store #01
       {
         id: 1,
-        name: 'Home Made Indian Food',
+        name: 'Home Made Vegetarian Food',
         raddress:'Petaling Jaya. Selangor',
         reviewsCount: 6,
         qualification: 5,
@@ -617,7 +617,7 @@ export class FakeDataService {
         avatarImage: 'assets/s5/banner/ChantiqueNasiLemakMerchant-BackgroundImage.jpg',
         logo: 'assets/s5/icon/ch.jpg',
         icon: '',
-        phoneNumber: '60108200805',
+        phoneNumber: '60105581746',
         deliveryFee: 0.00,
         image: 'assets/s5/icon/ch.jpg',
         categories: [
