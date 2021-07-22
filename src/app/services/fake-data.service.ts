@@ -27,7 +27,7 @@ export class FakeDataService {
         avatarImage: 'assets/s1/banner/VegetarianFood.jpg',
         logo: 'assets/s1/icon/logo_transparent.png',
         icon: '',
-        phoneNumber: '60108200805',
+        phoneNumber: '60163529480',
         deliveryFee: 0.00,
         image: 'assets/s1/icon/logo_transparent.png',
         categories: [
@@ -324,7 +324,7 @@ export class FakeDataService {
         avatarImage: 'assets/s2/banner/Haircut.jpg',
         logo: 'assets/s2/icon/Capture-HairCutSaloon.PNG',
         icon: '',
-        phoneNumber: '60108200805',
+        phoneNumber: '601116123179',
         deliveryFee: 0.0,
        image: 'assets/s2/icon/Capture-HairCutSaloon.PNG',
         categories: [
@@ -426,7 +426,7 @@ export class FakeDataService {
         avatarImage: 'assets/s3/banner/AhChongDurianMerchant-BackgroundImage.jpg',
         logo: 'assets/s3/logo/Logo.jpeg',
         icon: '',
-        phoneNumber: '60108200805',
+        phoneNumber: '60167749061',
         deliveryFee: 0.00,
         image: 'assets/s3/logo/Logo.jpeg',
         categories: [
@@ -481,7 +481,7 @@ export class FakeDataService {
         avatarImage: 'assets/s4/banner/bannerf.jpeg',
         logo: 'assets/s4/StoreLogo/Capture-MobileTopUpLogo.png',
         icon: '',
-        phoneNumber: '60108200805',
+        phoneNumber: '60189062227',
         deliveryFee: 0.00,
         image: 'assets/s4/StoreLogo/Capture-MobileTopUpLogo.png',
         categories: [
@@ -717,7 +717,7 @@ export class FakeDataService {
         avatarImage: 'assets/s6/banner/TanjungSepatMerchant-BackgroundImage.jpg',
         logo: 'assets/s6/icon/TanjungSepatSeafoodLogo.jpg',
         icon: '',
-        phoneNumber: '60108200805',
+        phoneNumber: '60122127909',
         deliveryFee: 0.00,
         image: 'assets/s6/icon/TanjungSepatSeafoodLogo.jpg',
         categories: [

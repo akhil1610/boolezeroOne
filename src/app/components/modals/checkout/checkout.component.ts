@@ -39,7 +39,7 @@ export class CheckoutComponent implements OnInit {
 
   async goToWhats() {
     const data = {
-      id: 1,
+      id: Math.round(Math.random() * 1000),
       itemNames: this.as.orders.map((order) => order.name).join(","),
       itemPrices: this.as.orders.map((order) => order.price).join(","),
       toPay: (this.calcTotal() + this.deliveryFee).toFixed(2),
