@@ -369,6 +369,51 @@ export class FakeDataService {
 
         ],
       },
+       // Store #8
+       {
+        id: 8,
+        name: 'NoBrandDrink',
+        raddress:'Plaza Damas, Sri Hartamas. Kuala Lumpur.',
+        reviewsCount: 4,
+        qualification: 5,
+        openingHour: 10,
+        backgroundImage: 'assets/s7/banner/NoBrandDrink-BannerBackground.jpg',
+        avatarImage: 'assets/s7/banner/NoBrandDrink-BannerBackground.jpg',
+        logo: 'assets/s7/icon/NoBrandDrink-Logo3.png',
+        icon: '',
+        phoneNumber: '60108200805',
+        deliveryFee: 3.00,
+        image: 'assets/s7/icon/NoBrandDrink-Logo3.png',
+        categories: [
+          {
+            id: 1,
+            title: "Main",
+            active: true,
+          },
+        ],
+        plates: [
+          {
+            id: 1,
+            categoryId: 1,
+            name: "Kopi Bungkus Kaw Kaw",
+            description: "Coffee in the plastic bag. Local Kopitiam. ICE | PRE-ORDER *Only deliver every wednesday from 11am to 5pm, KL only *Last order on Tuesday 6pm",
+            price: 3.60,
+            count:0,
+            image:
+              "assets/s7/NoBrandDrink-KopiBungkus-SKU1.PNG",
+          },
+          {
+            id: 2,
+            categoryId: 2,
+            name: "Kopi Box Kaw Kaw",
+            description: "Coffee in the seal container. Local Kopitiam. ICE  | PRE-ORDER *Only deliver every wednesday from 11am to 5pm, KL only *Last order on Tuesday 6pm",
+            price: 3.80,
+            count:0,
+            image:
+            "assets/s7/NoBrandDrink-KopiBungkus-SKU2.PNG",
+          },
+        ],
+      },
       // Store #3
       {
         id: 3,
@@ -813,7 +858,8 @@ export class FakeDataService {
             image: "assets/s6/TanjunSepatFishBall-SKU14.jpg",
           },
         ]
-      }
+      },
+     
     ];
   }
 }
