@@ -873,7 +873,7 @@ export class FakeDataService {
         icon: '',
         phoneNumber: '',
         deliveryFee: 8.00,
-        image: '',
+        image: 'assets/ZERO.svg',
         categories: [
           {
             id: 1,
