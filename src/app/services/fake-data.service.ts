@@ -19,6 +19,7 @@ export class FakeDataService {
       {
         id: 1,
         name: 'Home Made Indian Food',
+        raddress:'Petaling Jaya. Selangor',
         reviewsCount: 6,
         qualification: 5,
         openingHour: 10,
@@ -66,7 +67,7 @@ export class FakeDataService {
             id: 3,
             categoryId: 3,
             name: "Aloo Vada",
-            description: "this is just example",
+            // description: "this is just example",
             price: 1.50,
             count: 0,
             image:
@@ -76,7 +77,7 @@ export class FakeDataService {
             id: 4,
             categoryId: 2,
             name: "Veg Biryani",
-            description: "this is just example",
+            // description: "this is just example",
             price: 13.50,
             count: 0,
             image: "assets/s1/vegbiryani.jpg",
@@ -105,7 +106,7 @@ export class FakeDataService {
             id: 7,
             categoryId: 3,
             name: "Sev tameta nu shaak",
-            description: "this is just example",
+            description: "Sev tameta nu shaak",
             price: 9.50,
             count: 0,
             image:
@@ -315,6 +316,7 @@ export class FakeDataService {
       {
         id: 2,
         name: 'Ang Hair Salon',
+        raddress:'Kuantan. Pahang',
         reviewsCount: 3,
         qualification: 5,
         openingHour: 10,
@@ -371,6 +373,7 @@ export class FakeDataService {
       {
         id: 3,
         name: 'Ah Chong Durian',
+        raddress:'Damansara Perdana. Petaling Jaya. Selangor',
         reviewsCount: 4,
         qualification: 5,
         openingHour: 10,
@@ -425,6 +428,7 @@ export class FakeDataService {
       {
         id: 4,
         name: 'KY Mobile Top Up',
+        raddress:'Kuala Terengganu. Terengganu',
         reviewsCount: 4,
         qualification: 5,
         openingHour: 10,
@@ -560,6 +564,7 @@ export class FakeDataService {
       {
         id: 5,
         name: 'Chantique Nasi Lemak',
+        raddress:'Langkawi. Kedah.',
         reviewsCount: 4,
         qualification: 5,
         openingHour: 10,
@@ -659,6 +664,7 @@ export class FakeDataService {
       {
         id: 6,
         name: 'Tanjung Sepat Fishball',
+        raddress:'Petaling Jaya. Selangor.',
         reviewsCount: 4,
         qualification: 5,
         openingHour: 10,

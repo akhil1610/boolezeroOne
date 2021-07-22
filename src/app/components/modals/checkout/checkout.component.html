@@ -35,7 +35,7 @@
       </ion-col>
     </ion-row>
     <ion-row style="border-bottom: 1px solid #ccc;">
-      <ion-input [(ngModel)]="userName" placeholder="Type in your name"></ion-input>
+      <ion-input [(ngModel)]="userName" placeholder="Type in your name" required></ion-input>
     </ion-row>
   </ion-grid>
   <ion-grid *ngIf="this.as.activeDelivery.id === 1">
@@ -47,7 +47,7 @@
       </ion-col>
     </ion-row>
     <ion-row style="border-bottom: 1px solid #ccc;">
-      <ion-textarea [(ngModel)]="address" clearOnEdit="true" placeholder="Type in delivery address"></ion-textarea>
+      <ion-textarea [(ngModel)]="address" clearOnEdit="true" placeholder="Type in delivery address" required></ion-textarea>
     </ion-row>
   </ion-grid>
 
