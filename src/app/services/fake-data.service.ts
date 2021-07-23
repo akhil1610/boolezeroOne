@@ -867,13 +867,13 @@ export class FakeDataService {
         reviewsCount: 4,
         qualification: 5,
         openingHour: 10,
-        backgroundImage: '',
-        avatarImage: '',
-        logo: '',
+        backgroundImage: 'assets/s8/47.jpeg',
+        avatarImage: 'assets/s8/47.jpeg',
+        logo: 'assets/s8/43.jpeg  ',
         icon: '',
         phoneNumber: '',
         deliveryFee: 8.00,
-        image: 'assets/ZERO.svg',
+        image: 'assets/s8/43.jpeg',
         categories: [
           {
             id: 1,
