@@ -1072,7 +1072,7 @@ export class FakeDataService {
             image: "assets/s8/21.jpeg",
           },
           {
-            id:22,
+            id: 22,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
