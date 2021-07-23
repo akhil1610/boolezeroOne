@@ -892,7 +892,7 @@ export class FakeDataService {
             image: "assets/s8/1.jpeg",
           },
           {
-            id: 1,
+            id: 2,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -901,7 +901,7 @@ export class FakeDataService {
             image: "assets/s8/2.jpeg",
           },
           {
-            id: 1,
+            id: 3,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -910,7 +910,7 @@ export class FakeDataService {
             image: "assets/s8/3.jpeg",
           },
           {
-            id: 1,
+            id: 4,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -919,7 +919,7 @@ export class FakeDataService {
             image: "assets/s8/4.jpeg",
           },
           {
-            id: 1,
+            id: 5,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -928,7 +928,7 @@ export class FakeDataService {
             image: "assets/s8/5.jpeg",
           },
           {
-            id: 1,
+            id: 6,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -937,7 +937,7 @@ export class FakeDataService {
             image: "assets/s8/6.jpeg",
           },
           {
-            id: 1,
+            id: 7,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -946,7 +946,7 @@ export class FakeDataService {
             image: "assets/s8/7.jpeg",
           },
           {
-            id: 1,
+            id: 8,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -955,7 +955,7 @@ export class FakeDataService {
             image: "assets/s8/8.jpeg",
           },
           {
-            id: 1,
+            id: 9,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -964,7 +964,7 @@ export class FakeDataService {
             image: "assets/s8/9.jpeg",
           },
           {
-            id: 1,
+            id: 10,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -973,7 +973,7 @@ export class FakeDataService {
             image: "assets/s8/10.jpeg",
           },
           {
-            id: 1,
+            id: 11,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -982,7 +982,7 @@ export class FakeDataService {
             image: "assets/s8/11.jpeg",
           },
           {
-            id: 1,
+            id: 12,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -991,7 +991,7 @@ export class FakeDataService {
             image: "assets/s8/12.jpeg",
           },
           {
-            id: 1,
+            id: 13,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1000,7 +1000,7 @@ export class FakeDataService {
             image: "assets/s8/13.jpeg",
           },
           {
-            id: 1,
+            id: 14,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1009,7 +1009,7 @@ export class FakeDataService {
             image: "assets/s8/14.jpeg",
           },
           {
-            id: 1,
+            id: 15,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1018,7 +1018,7 @@ export class FakeDataService {
             image: "assets/s8/15.jpeg",
           },
           {
-            id: 1,
+            id: 16,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1027,7 +1027,7 @@ export class FakeDataService {
             image: "assets/s8/16.jpeg",
           },
           {
-            id: 1,
+            id: 17,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1036,7 +1036,7 @@ export class FakeDataService {
             image: "assets/s8/17.jpeg",
           },
           {
-            id: 1,
+            id: 18,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1045,7 +1045,7 @@ export class FakeDataService {
             image: "assets/s8/18.jpeg",
           },
           {
-            id: 1,
+            id: 19,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1054,7 +1054,7 @@ export class FakeDataService {
             image: "assets/s8/19.jpeg",
           },
           {
-            id: 1,
+            id: 20,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1063,7 +1063,7 @@ export class FakeDataService {
             image: "assets/s8/20.jpeg",
           },
           {
-            id: 1,
+            id: 21,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1072,7 +1072,7 @@ export class FakeDataService {
             image: "assets/s8/21.jpeg",
           },
           {
-            id: 1,
+            id:22,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1081,7 +1081,7 @@ export class FakeDataService {
             image: "assets/s8/22.jpeg",
           },
           {
-            id: 1,
+            id: 23,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1090,7 +1090,7 @@ export class FakeDataService {
             image: "assets/s8/23.jpeg",
           },
           {
-            id: 1,
+            id: 24,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1099,7 +1099,7 @@ export class FakeDataService {
             image: "assets/s8/24.jpeg",
           },
           {
-            id: 1,
+            id: 25,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1108,7 +1108,7 @@ export class FakeDataService {
             image: "assets/s8/25.jpeg",
           },
           {
-            id: 1,
+            id: 26,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1117,7 +1117,7 @@ export class FakeDataService {
             image: "assets/s8/26.jpeg",
           },
           {
-            id: 1,
+            id: 27,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1126,7 +1126,7 @@ export class FakeDataService {
             image: "assets/s8/27.jpeg",
           },
           {
-            id: 1,
+            id: 28,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1135,7 +1135,7 @@ export class FakeDataService {
             image: "assets/s8/28.jpeg",
           },
           {
-            id: 1,
+            id: 29,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1144,7 +1144,7 @@ export class FakeDataService {
             image: "assets/s8/29.jpeg",
           },
           {
-            id: 1,
+            id: 30,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1153,7 +1153,7 @@ export class FakeDataService {
             image: "assets/s8/30.jpeg",
           },
           {
-            id: 1,
+            id: 31,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1162,7 +1162,7 @@ export class FakeDataService {
             image: "assets/s8/31.jpeg",
           },
           {
-            id: 1,
+            id: 32,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1171,7 +1171,7 @@ export class FakeDataService {
             image: "assets/s8/32.jpeg",
           },
           {
-            id: 1,
+            id: 33,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1180,7 +1180,7 @@ export class FakeDataService {
             image: "assets/s8/33.jpeg",
           },
           {
-            id: 1,
+            id: 34,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1189,7 +1189,7 @@ export class FakeDataService {
             image: "assets/s8/34.jpeg",
           },
           {
-            id: 1,
+            id: 35,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1198,7 +1198,7 @@ export class FakeDataService {
             image: "assets/s8/35.jpeg",
           },
           {
-            id: 1,
+            id: 36,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1207,7 +1207,7 @@ export class FakeDataService {
             image: "assets/s8/36.jpeg",
           },
           {
-            id: 1,
+            id: 37,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1216,7 +1216,7 @@ export class FakeDataService {
             image: "assets/s8/37.jpeg",
           },
           {
-            id: 1,
+            id: 38,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1225,7 +1225,7 @@ export class FakeDataService {
             image: "assets/s8/38.jpeg",
           },
           {
-            id: 1,
+            id: 39,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1234,7 +1234,7 @@ export class FakeDataService {
             image: "assets/s8/39.jpeg",
           },
           {
-            id: 1,
+            id: 40,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1243,7 +1243,7 @@ export class FakeDataService {
             image: "assets/s8/40.jpeg",
           },
           {
-            id: 1,
+            id: 41,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1252,7 +1252,7 @@ export class FakeDataService {
             image: "assets/s8/41.jpeg",
           },
           {
-            id: 1,
+            id: 42,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1261,7 +1261,7 @@ export class FakeDataService {
             image: "assets/s8/42.jpeg",
           },
           {
-            id: 1,
+            id: 43,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1270,7 +1270,7 @@ export class FakeDataService {
             image: "assets/s8/43.jpeg",
           },
           {
-            id: 1,
+            id: 44,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1279,7 +1279,7 @@ export class FakeDataService {
             image: "assets/s8/44.jpeg",
           },
           {
-            id: 1,
+            id: 45,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1288,7 +1288,7 @@ export class FakeDataService {
             image: "assets/s8/45.jpeg",
           },
           {
-            id: 1,
+            id: 46,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1297,7 +1297,7 @@ export class FakeDataService {
             image: "assets/s8/46.jpeg",
           },
           {
-            id: 1,
+            id: 47,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1306,7 +1306,7 @@ export class FakeDataService {
             image: "assets/s8/47.jpeg",
           },
           {
-            id: 1,
+            id: 48,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1315,7 +1315,7 @@ export class FakeDataService {
             image: "assets/s8/48.jpeg",
           },
           {
-            id: 1,
+            id: 49,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1324,7 +1324,7 @@ export class FakeDataService {
             image: "assets/s8/49.jpeg",
           },
           {
-            id: 1,
+            id: 50,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
@@ -1333,7 +1333,7 @@ export class FakeDataService {
             image: "assets/s8/50.jpeg",
           },
           {
-            id: 1,
+            id: 51,
             categoryId: 1,
             name: "🌾Beautiful  linen  saree🌾",
             description: "4 weeks pre order",
