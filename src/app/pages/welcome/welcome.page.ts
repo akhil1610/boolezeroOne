@@ -22,6 +22,6 @@ export class WelcomePage implements OnInit {
   }
 
   goToRestaurant(restaurantId: number) {
-    this.navCtrl.navigateForward('/restaurants/' + restaurantId);
+    this.navCtrl.navigateForward('/onlinestore/' + restaurantId);
   }
 }

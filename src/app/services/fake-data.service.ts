@@ -17,7 +17,7 @@ export class FakeDataService {
     return [
       // Store #01
       {
-        id: 1,
+        id: 'ZE00003',
         name: 'Home Made Vegetarian Food',
         raddress: 'Petaling Jaya. Selangor',
         reviewsCount: 6,
@@ -314,7 +314,7 @@ export class FakeDataService {
       },
       // Store #02
       {
-        id: 2,
+        id: 'ZE000017',
         name: 'Ang Hair Salon',
         raddress: 'Kuantan. Pahang',
         reviewsCount: 3,
@@ -371,7 +371,7 @@ export class FakeDataService {
       },
       // Store #07
       {
-        id: 7,
+        id: 'ZE00008',
         name: 'NoBrandDrink',
         raddress: 'Plaza Damas, Sri Hartamas. Kuala Lumpur.',
         reviewsCount: 4,
@@ -416,7 +416,7 @@ export class FakeDataService {
       },
       // Store #03
       {
-        id: 3,
+        id: 'ZE00006',
         name: 'Ah Chong Durian',
         raddress: 'Damansara Perdana. Petaling Jaya. Selangor',
         reviewsCount: 4,
@@ -471,7 +471,7 @@ export class FakeDataService {
       },
       // Store #04
       {
-        id: 4,
+        id: 'ZE00002',
         name: 'KY Mobile Top Up',
         raddress: 'Kuala Terengganu. Terengganu',
         reviewsCount: 4,
@@ -607,7 +607,7 @@ export class FakeDataService {
       },
       // Store #05
       {
-        id: 5,
+        id: 'ZE00007',
         name: 'Chantique Nasi Lemak',
         raddress: 'Langkawi. Kedah.',
         reviewsCount: 4,
@@ -707,7 +707,7 @@ export class FakeDataService {
       },
       // Store #06
       {
-        id: 6,
+        id: 'ZE00011',
         name: 'Tanjung Sepat Fishball',
         raddress: 'Petaling Jaya. Selangor.',
         reviewsCount: 4,
@@ -861,9 +861,9 @@ export class FakeDataService {
       },
       // Store #08
       {
-        id: 8,
-        name: 'Beautiful  linen  saree',
-        raddress: '4 weeks pre order',
+        id: 'ZE00027',
+        name: 'Akshaya EC',
+        raddress: 'Kuala Lumpur',
         reviewsCount: 4,
         qualification: 5,
         openingHour: 10,
@@ -871,7 +871,7 @@ export class FakeDataService {
         avatarImage: 'assets/s8/47.jpeg',
         logo: 'assets/s8/43.jpeg  ',
         icon: '',
-        phoneNumber: '',
+        phoneNumber: '60167997215',
         deliveryFee: 8.00,
         image: 'assets/s8/43.jpeg',
         categories: [
@@ -1347,7 +1347,7 @@ export class FakeDataService {
       },
       // Store #09
       {
-        id: '9',
+        id: 'ZE00021',
         name: 'Ibrahim Albar Hainan Chicken Rice',
         raddress: 'Plaza Damas, Sri Hartamas. Kuala Lumpur.',
         reviewsCount: 4,
@@ -1681,7 +1681,7 @@ export class FakeDataService {
       },
       // Store #10
       {
-        id: '10',
+        id: 'ZE00014',
         name: 'Syrian Kitchen',
         raddress: 'Damansara Perdana. Petaling Jaya. Selangor.',
         reviewsCount: 4,
@@ -1857,9 +1857,9 @@ export class FakeDataService {
           },
         ],
       },
-      // Store #10
+      // Store #11
       {
-        id: '11',
+        id: 'ZE00020',
         name: 'Thai Sauce Store',
         raddress: 'Damansara Perdana. Petaling Jaya. Selangor.',
         reviewsCount: 4,
