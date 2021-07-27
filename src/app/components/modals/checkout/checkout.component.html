@@ -30,7 +30,7 @@
     <ion-row>
       <ion-col>
         <h3>
-          Name
+          Name <span style="color:red">*</span>
         </h3>
       </ion-col>
     </ion-row>
@@ -47,7 +47,7 @@
       </ion-col>
     </ion-row>
     <ion-row style="border-bottom: 1px solid #ccc;">
-      <ion-textarea [(ngModel)]="address" clearOnEdit="true"></ion-textarea>
+      <input class="custom-input" #addressText id="addressText" [(ngModel)]="address"/>
     </ion-row>
   </ion-grid>
 
@@ -91,7 +91,7 @@
         Delivery Fee
       </ion-col>
       <ion-col class="checkout-col">
-        RM {{deliveryFee}}
+        RM {{deliveryFee || 0}}
       </ion-col>
     </ion-row>
     <ion-row style="border-top: 1px solid #ccc;">
@@ -99,7 +99,7 @@
         <p class="bold">Total:</p>
       </ion-col>
       <ion-col class="checkout-col">
-       <p class="bold">RM {{(calcTotal() + deliveryFee).toFixed(2)}}</p>
+       <p class="bold">RM {{(calcTotal() + (deliveryFee || 0)).toFixed(2)}}</p>
       </ion-col>
     </ion-row>
   </ion-grid>
@@ -107,7 +107,7 @@
 
 <ion-footer class="ion-no-border">
   <ion-toolbar>
-    <ion-button (click)="goToWhats()" color="primary" expand="block" size="large">
+    <ion-button [disabled]="userName.length === 0 || (addressText && addressText.length === 0)" (click)="goToWhats()" color="primary" expand="block" size="large">
       Order Now
     </ion-button>
   </ion-toolbar>

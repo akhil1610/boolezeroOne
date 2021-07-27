@@ -1,10 +1,12 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { ModalController } from '@ionic/angular';
+import { Component, OnInit, Input, ViewChild, Output, EventEmitter, ElementRef } from '@angular/core';
+import {  ModalController, LoadingController } from '@ionic/angular';
 import { AccountService } from './../../../services/account.service';
 
 import { Browser } from '@capacitor/browser';
 
+import { Geolocation } from '@capacitor/geolocation'
 
+declare var google;
 @Component({
   selector: 'app-checkout',
   templateUrl: './checkout.component.html',
@@ -15,15 +17,27 @@ export class CheckoutComponent implements OnInit {
   public address: string = "";
   public userName: string = "";
 
+  @Input() adressType: string;
   @Input() phoneNumber: string;
-  @Input() deliveryFee: any;
+  @Input() deliveryFee: any = 0;
 
-  constructor(private modalCtrl: ModalController, public as: AccountService) { }
+  @ViewChild('addressText', {static: false}) addresstext: ElementRef;
+
+  @Output() setAddress: EventEmitter<any> = new EventEmitter();
+
+  constructor(private modalCtrl: ModalController, public as: AccountService, public loadingController: LoadingController) {
+  }
 
   ngOnInit() {
     this.orders = this.as.orders;
 
-    this.deliveryFee = parseFloat(this.deliveryFee)
+    this.deliveryFee = parseFloat(this.deliveryFee);
+
+    this.getCurrentLocation();
+  }
+
+  ionViewDidEnter() {
+    this.getPlaceAutocomplete();
   }
 
   async dismiss() {
@@ -48,15 +62,73 @@ export class CheckoutComponent implements OnInit {
       deliveryOpt: 'Delivery'
     };
 
+
+
+
+
     const url = `https://wa.me/${this.phoneNumber}?text=
     %0aOrder No:%20 ${data.id}%0a
       Name:%20 ${data.CName}%0a
-      Address:%20  ${data.CAddress}%0a
-      Delivery Type:%20${this.as.activeDelivery.label}%0a
-      Item Name:%20  ${data.itemNames}%0a
-      Item Price:%20  ${data.itemPrices}%0a
-      Total Amount:%20  ${data.toPay}%0a`;
+      ${this.setUrl()}
+      Total Amount:%20  ${data.toPay}%0a
+      Address:%20  ${data.CAddress || `N/A`}%0a
+      Delivery Type:%20${this.as.activeDelivery.label}%0a`;
 
     await Browser.open({ url });
+  }
+
+
+  setUrl() {
+    let res = ``;
+
+    this.as.orders.forEach((order) => {
+      res += (`Item name: ${order.count} x ${order.name}%0a Item Price Amount: RM ${order.price}%0a`)
+    });
+
+    return res;
+  }
+
+
+  async getCurrentLocation() {
+    if (this.as.activeDelivery.id !== 1)
+      return;
+
+    const loading = await this.loadingController.create({
+      message: 'Please wait...',
+    });
+
+    await loading.present();
+
+    try {
+      const { coords } = await Geolocation.getCurrentPosition();
+      const geocoder = new google.maps.Geocoder();
+
+      geocoder.geocode({ location: { lat: coords.latitude, lng: coords.longitude } }).then(({results}) => {
+        this.address = results[0].formatted_address;
+      });
+
+      loading.dismiss();
+    } catch (error) {
+      loading.dismiss();
+      alert('Error while getting current Location, check your configuration');
+    }
+  }
+
+  getPlaceAutocomplete() {
+    if (this.as.activeDelivery.id !== 1)
+      return;
+
+    const autocomplete = new google.maps.places.Autocomplete(this.addresstext.nativeElement,
+      {
+        types: ['address']  // 'establishment' / 'address' / 'geocode'
+      });
+    google.maps.event.addListener(autocomplete, 'place_changed', () => {
+        const place = autocomplete.getPlace();
+        this.invokeEvent(place);
+    });
+  }
+
+  invokeEvent(place: Object) {
+    this.setAddress.emit(place);
   }
 }

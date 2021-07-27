@@ -1,5 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { FakeDataService } from './../../services/fake-data.service'
+import { FakeDataService } from './../../services/fake-data.service';
+import { AccountService } from './../../services/account.service';
+
 import { NavController } from '@ionic/angular';
 
 @Component({
@@ -12,7 +14,7 @@ export class WelcomePage implements OnInit {
 
   public searchText: string = "";
 
-  constructor(private navCtrl: NavController, public fds: FakeDataService) {
+  constructor(private navCtrl: NavController, public fds: FakeDataService, public as:AccountService) {
     const restaurants = this.fds.getData();
 
     this.restaurants = restaurants as any;
@@ -22,6 +24,7 @@ export class WelcomePage implements OnInit {
   }
 
   goToRestaurant(restaurantId: number) {
+    this.as.activeDelivery = {label: "Delivery", id: 1, iconName: "location-outline"};
     this.navCtrl.navigateForward('/restaurants/' + restaurantId);
   }
 }

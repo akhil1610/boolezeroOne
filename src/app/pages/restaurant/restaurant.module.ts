@@ -18,7 +18,6 @@ import { CheckoutComponent } from './../../components/modals/checkout/checkout.c
 import { ProductItemComponent } from './../../components/functinals/product-item/product-item.component';
 import { SearchProductFilterPipe } from './../../pipes/search-product-filter.pipe';
 
-
 @NgModule({
   imports: [
     CommonModule,
