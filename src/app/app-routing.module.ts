@@ -17,7 +17,7 @@ const routes: Routes = [
   },
   {
     path: 'clients',
-    loadChildren: () => import('./pages/clients/clients.module').then( m => m.clientsPageModule)
+    loadChildren: () => import('./pages/clients/clients.module').then( m => m.CLientsPageModule)
   },
   {
     path: 'onlinestore/:id',

@@ -19,4 +19,4 @@ import { SearchFilterPipe } from './../../pipes/search-filter.pipe'
   ],
   declarations: [clientsPage, SearchFilterPipe]
 })
-export class clientsPageModule {}
+export class CLientsPageModule {}
