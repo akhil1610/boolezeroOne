@@ -8,7 +8,7 @@ import { clientsPageRoutingModule } from './clients-routing.module';
 
 import { clientsPage } from './clients.page';
 
-import { SearchFilterPipe } from './../../pipes/search-filter.pipe'
+import { SearchClientFilterPipe } from './../../pipes/search-client-filter.pipe'
 
 @NgModule({
   imports: [
@@ -17,6 +17,6 @@ import { SearchFilterPipe } from './../../pipes/search-filter.pipe'
     IonicModule,
     clientsPageRoutingModule
   ],
-  declarations: [clientsPage, SearchFilterPipe]
+  declarations: [clientsPage, SearchClientFilterPipe]
 })
 export class CLientsPageModule {}

@@ -10,9 +10,9 @@
         <ion-searchbar [(ngModel)]="searchText" placeholder="Buy Local Now"></ion-searchbar>
       </div>
     </section>
-  
+
     <section class="cards">
-      <ion-card mode="md" *ngFor="let restaurant of restaurants | searchFilter: searchText" (click)="goToRestaurant(restaurant.id)" >
+      <ion-card mode="md" *ngFor="let restaurant of restaurants | searchClientFilter: searchText" (click)="goToRestaurant(restaurant.id)" >
         <ion-item lines="none">
           <ion-thumbnail slot="start">
             <img [src]="restaurant.image">
@@ -45,4 +45,3 @@
       </ion-card>
     </section>
   </ion-content>
-  
