@@ -2574,13 +2574,13 @@ export class FakeDataService {
         reviewsCount: 4,
         qualification: 5,
         openingHour: 10,
-        backgroundImage: 'assets/s13/Logo/DMMart-background.PNG',
-        avatarImage: 'assets/s13/Logo/DMMart-background.PNG',
-        logo: 'assets/s13/Logo/DMMartLogo.jpg',
+        backgroundImage: 'assets/S13/Logo/DMMart-background.PNG',
+        avatarImage: 'assets/S13/Logo/DMMart-background.PNG',
+        logo: 'assets/S13/Logo/DMMartLogo.jpg',
         icon: '',
         phoneNumber: '60108200805',
         deliveryFee: 0.00,
-        image: 'assets/s13//Logo/DMMartLogo.jpg',
+        image: 'assets/S13//Logo/DMMartLogo.jpg',
         categories: [
           {
             id: 1,
