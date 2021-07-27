@@ -2580,7 +2580,7 @@ export class FakeDataService {
         icon: '',
         phoneNumber: '60108200805',
         deliveryFee: 0.00,
-        image: 'assets/S13//Logo/DMMartLogo.jpg',
+        image: 'assets/S13/Logo/DMMartLogo.jpg',
         categories: [
           {
             id: 1,
