@@ -2596,7 +2596,7 @@ export class FakeDataService {
             description: "",
             price: 1.60,
             count: 0,
-            image: "assets/s13/DMmart-SKU1.jpg",
+            image: "assets/S13/DMmart-SKU1.jpg",
           },
           {
             id: 2,
@@ -2605,7 +2605,7 @@ export class FakeDataService {
             description: "",
             price: 1.25,
             count: 0,
-            image: "assets/s13/DMmart-SKU2.jpg",
+            image: "assets/S13/DMmart-SKU2.jpg",
           },
           {
             id: 3,
@@ -2614,7 +2614,7 @@ export class FakeDataService {
             description: "",
             price: 1.80,
             count: 0,
-            image: "assets/s13/DMmart-SKU3.jpg",
+            image: "assets/S13/DMmart-SKU3.jpg",
           },
           {
             id: 4,
@@ -2623,7 +2623,7 @@ export class FakeDataService {
             description: "",
             price: 1.80,
             count: 0,
-            image: "assets/s13/DMmart-SKU4.jpg",
+            image: "assets/S13/DMmart-SKU4.jpg",
           },
           {
             id: 5,
@@ -2632,7 +2632,7 @@ export class FakeDataService {
             description: "",
             price: 1.00,
             count: 0,
-            image: "assets/s13/DMmart-SKU5.jpg",
+            image: "assets/S13/DMmart-SKU5.jpg",
           },
           {
             id: 6,
@@ -2641,7 +2641,7 @@ export class FakeDataService {
             description: "",
             price: 1.00,
             count: 0,
-            image: "assets/s13/DMmart-SKU6.jpg",
+            image: "assets/S13/DMmart-SKU6.jpg",
           },
           {
             id: 7,
@@ -2650,7 +2650,7 @@ export class FakeDataService {
             description: "",
             price: 2.70,
             count: 0,
-            image: "assets/s13/DMmart-SKU7.jpg",
+            image: "assets/S13/DMmart-SKU7.jpg",
           },
           {
             id: 8,
@@ -2659,7 +2659,7 @@ export class FakeDataService {
             description: "",
             price: 2.70,
             count: 0,
-            image: "assets/s13/DMmart-SKU8.jpg",
+            image: "assets/S13/DMmart-SKU8.jpg",
           },
           {
             id: 9,
@@ -2668,7 +2668,7 @@ export class FakeDataService {
             description: "",
             price: 2.70,
             count: 0,
-            image: "assets/s13/DMmart-SKU9.jpg",
+            image: "assets/S13/DMmart-SKU9.jpg",
           },
           {
             id: 10,
@@ -2677,7 +2677,7 @@ export class FakeDataService {
             description: "",
             price: 4.80,
             count: 0,
-            image: "assets/s13/DMmart-SKU10.jpg",
+            image: "assets/S13/DMmart-SKU10.jpg",
           },
 
 
