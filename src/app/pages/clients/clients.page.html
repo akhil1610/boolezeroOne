@@ -1,0 +1,48 @@
+<ion-content>
+    <section class="header">
+      <div class="header__logo">
+        <img src="./../../assets/ZERO.svg"  class="image" width="80"/>
+      </div>
+      <p class="white">
+        Buy Local Products @ Normal Prices.
+      </p>
+      <div class="cards">
+        <ion-searchbar [(ngModel)]="searchText" placeholder="Buy Local Now"></ion-searchbar>
+      </div>
+    </section>
+  
+    <section class="cards">
+      <ion-card mode="md" *ngFor="let restaurant of restaurants | searchFilter: searchText" (click)="goToRestaurant(restaurant.id)" >
+        <ion-item lines="none">
+          <ion-thumbnail slot="start">
+            <img [src]="restaurant.image">
+          </ion-thumbnail>
+          <ion-label>
+            <p class="title">{{restaurant.name}}</p>
+            <p>
+              <span>
+                <ion-icon name="star" color="warning"></ion-icon>
+                <ion-icon name="star" color="warning"></ion-icon>
+                <ion-icon name="star" color="warning"></ion-icon>
+                <ion-icon name="star" color="warning"></ion-icon>
+                <ion-icon name="star" color="warning"></ion-icon>
+              </span>
+              <span style="color: #ccc"> {{restaurant.reviewsCount}} </span> <span style="color: #ccc">Reviews</span>
+            </p>
+          </ion-label>
+        </ion-item>
+        <div class="hours-of-services">
+            <ion-item class="transparent" lines="none">
+              <ion-label>
+                <!-- <p>Opens next at {{restaurant.openingHour}} am Today</p>  -->
+              </ion-label>
+              <ion-button  mode="ios" class="white" color="danger" shape="round">
+                <span style="color: white">Order</span>
+                <ion-icon color="light" slot="end" name="arrow-forward"></ion-icon>
+              </ion-button>
+            </ion-item>
+        </div>
+      </ion-card>
+    </section>
+  </ion-content>
+  

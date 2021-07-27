@@ -53,7 +53,7 @@ export class CheckoutComponent implements OnInit {
 
   async goToWhats() {
     const data = {
-      id: 1,
+      id: Math.round(Math.random() * 1000),
       itemNames: this.as.orders.map((order) => order.name).join(","),
       itemPrices: this.as.orders.map((order) => order.price).join(","),
       toPay: (this.calcTotal() + this.deliveryFee).toFixed(2),
@@ -62,11 +62,7 @@ export class CheckoutComponent implements OnInit {
       deliveryOpt: 'Delivery'
     };
 
-
-
-
-
-    const url = `https://wa.me/${this.phoneNumber}?text=
+  const url = `https://wa.me/${this.phoneNumber}?text=
     %0aOrder No:%20 ${data.id}%0a
       Name:%20 ${data.CName}%0a
       ${this.setUrl()}
@@ -77,7 +73,6 @@ export class CheckoutComponent implements OnInit {
     await Browser.open({ url });
   }
 
-
   setUrl() {
     let res = ``;
 
@@ -87,7 +82,6 @@ export class CheckoutComponent implements OnInit {
 
     return res;
   }
-
 
   async getCurrentLocation() {
     if (this.as.activeDelivery.id !== 1)

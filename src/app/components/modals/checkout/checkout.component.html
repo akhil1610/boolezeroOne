@@ -35,15 +35,15 @@
       </ion-col>
     </ion-row>
     <ion-row style="border-bottom: 1px solid #ccc;">
-      <ion-input [(ngModel)]="userName" placeholder="Type in your name"></ion-input>
+      <ion-input [(ngModel)]="userName" placeholder="Type in your name" required></ion-input>
     </ion-row>
   </ion-grid>
   <ion-grid *ngIf="this.as.activeDelivery.id === 1">
     <ion-row>
       <ion-col>
-        <h3>
+        <!-- <h5> -->
           Address
-        </h3>
+        <!-- </h5> -->
       </ion-col>
     </ion-row>
     <ion-row style="border-bottom: 1px solid #ccc;">
@@ -54,9 +54,9 @@
   <ion-grid>
     <ion-row>
       <ion-col>
-        <h3>
+        <!-- <h3> -->
           Delivery Options
-        </h3>
+        <!-- </h3> -->
       </ion-col>
     </ion-row>
     <ion-row>
@@ -73,9 +73,9 @@
     </ion-row>
     <ion-row>
       <ion-col>
-        <h3>
+        <!-- <h3> -->
           Bill details
-        </h3>
+        <!-- </h3> -->
       </ion-col>
     </ion-row>
     <ion-row>
@@ -83,7 +83,7 @@
         Item Total
       </ion-col>
       <ion-col class="checkout-col">
-        RM {{calcTotal()}}
+        RM {{(calcTotal()).toFixed(2)}}
       </ion-col>
     </ion-row>
     <ion-row>
@@ -91,7 +91,7 @@
         Delivery Fee
       </ion-col>
       <ion-col class="checkout-col">
-        RM {{deliveryFee || 0}}
+        RM {{(deliveryFee || 0).toFixed(2)}}
       </ion-col>
     </ion-row>
     <ion-row style="border-top: 1px solid #ccc;">
