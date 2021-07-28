@@ -2683,6 +2683,51 @@ export class FakeDataService {
 
         ],
       },
+      // Store #14
+      {
+        id: 'ZE00037',
+        name: 'Caring Phamarcy (Kepong Baru Branch)',
+        raddress: 'Kepong Baru Branch.',
+        reviewsCount: 4,
+        qualification: 5,
+        openingHour: 10,
+        backgroundImage: 'assets/s14/Logo/CaringPharmacy-Background.jpg',
+        avatarImage: 'assets/s14/Logo/CaringPharmacy-Background.jpg',
+        logo: 'assets/s14/Logo/CaringPhamarcy-Logo.PNG',
+        icon: '',
+        phoneNumber: '60124943928',
+        deliveryFee: 0.00,
+        image: 'assets/s14/Logo/CaringPhamarcy-Logo.PNG',
+        categories: [
+          {
+            id: 1,
+            title: "Main",
+            active: true,
+          },
+        ],
+        plates: [
+          {
+            id: 1,
+            categoryId: 2,
+            name: "GMATE COVID-19 AG SALIVA HOME TEST KIT",
+            description: "The RTK-Antigen Test is a screening tool, not a diagnostic tool! Approved By MoH",
+            price: 39.90,
+            count: 0,
+            image: "assets/s14/CaringPharmacy-SKU1.PNG",
+          },
+          {
+            id: 2,
+            categoryId: 2,
+            name: "Vitaminc C Health Supplement",
+            description: "Rosemin C Plus. Orange flavor, no added presevatives 45 tablets",
+            price: 67.00,
+            count: 0,
+            image: "assets/s14/img.jpg",
+          },
+
+
+        ],
+      },
 
 
     ];
