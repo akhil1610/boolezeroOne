@@ -2730,7 +2730,7 @@ export class FakeDataService {
       },
       // Store #15
       {
-        id: 'ZE00037',
+        id: 'ZE00012',
         name: 'Pan Food Truck',
         raddress: '(Sunway Giza-KKMart) Kota Damansara, Petaling Jaya. Selangor.',
         reviewsCount: 4,
