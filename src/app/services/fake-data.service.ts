@@ -29,6 +29,7 @@ export class FakeDataService {
         icon: '',
         phoneNumber: '60163529480',
         deliveryFee: 0.00,
+        deliverytype:'Self Pickup/Delivery',
         image: 'assets/s1/icon/logo_transparent.png',
         categories: [
           {
@@ -326,6 +327,7 @@ export class FakeDataService {
         icon: '',
         phoneNumber: '60139809689',
         deliveryFee: 0.0,
+        deliverytype:'Appointment',
         image: 'assets/s2/icon/Capture-HairCutSaloon.PNG',
         categories: [
           {
@@ -383,6 +385,7 @@ export class FakeDataService {
         icon: '',
         phoneNumber: '60108200805',
         deliveryFee: 3.00,
+        deliverytype:'Delivery ONLY',
         image: 'assets/s7/icon/NoBrandDrink-Logo3.png',
         categories: [
           {
@@ -428,6 +431,7 @@ export class FakeDataService {
         icon: '',
         phoneNumber: '60167749061',
         deliveryFee: 0.00,
+        deliverytype:'Self Pickup/Delivery',
         image: 'assets/s3/logo/Logo.jpeg',
         categories: [
           {
@@ -483,6 +487,7 @@ export class FakeDataService {
         icon: '',
         phoneNumber: '60189062227',
         deliveryFee: 0.00,
+        deliverytype:'Digital Delivery ',
         image: 'assets/s4/StoreLogo/Capture-MobileTopUpLogo.png',
         categories: [
           {
@@ -619,6 +624,7 @@ export class FakeDataService {
         icon: '',
         phoneNumber: '60105581746',
         deliveryFee: 0.00,
+        deliverytype:'Self Pickup/Delivery',
         image: 'assets/s5/icon/ch.jpg',
         categories: [
           {
@@ -719,6 +725,7 @@ export class FakeDataService {
         icon: '',
         phoneNumber: '60122127909',
         deliveryFee: 0.00,
+        deliverytype:'Self Pickup/Delivery',
         image: 'assets/s6/icon/TanjungSepatSeafoodLogo.jpg',
         categories: [
           {
@@ -873,6 +880,7 @@ export class FakeDataService {
         icon: '',
         phoneNumber: '60167997215',
         deliveryFee: 8.00,
+        deliverytype:'Self Pickup/Delivery',
         image: 'assets/s8/43.jpeg',
         categories: [
           {
@@ -1359,6 +1367,7 @@ export class FakeDataService {
         icon: '',
         phoneNumber: '60198165061',
         deliveryFee: 0.00,
+        deliverytype:'Self Pickup',
         image: 'assets/s9/Logo/logo.png',
         categories: [
           {
@@ -1693,6 +1702,7 @@ export class FakeDataService {
         icon: '',
         phoneNumber: '601160939104',
         deliveryFee: 0.00,
+        deliverytype:'Self Pickup/Delivery',
         image: 'assets/s10//Logo/logo.PNG',
         categories: [
           {
@@ -1871,6 +1881,7 @@ export class FakeDataService {
         icon: '',
         phoneNumber: '60124858670',
         deliveryFee: 0.00,
+        deliverytype:'Self Pickup/Delivery',
         image: 'assets/s11//Logo/ThaiSauceLogo.PNG',
         categories: [
           {
@@ -1905,6 +1916,7 @@ export class FakeDataService {
         icon: '',
         phoneNumber: '60193380811',
         deliveryFee: 0.00,
+        deliverytype:'Self Pickup/Delivery',
         image: 'assets/S12/Logo/Carey-Logo.PNG',
         categories: [
           {
@@ -2580,6 +2592,7 @@ export class FakeDataService {
         icon: '',
         phoneNumber: '60108200805',
         deliveryFee: 0.00,
+        deliverytype:'Self Pickup/Delivery',
         image: 'assets/S13/Logo/DMMartLogo.jpg',
         categories: [
           {
@@ -2697,6 +2710,7 @@ export class FakeDataService {
         icon: '',
         phoneNumber: '60124943928',
         deliveryFee: 0.00,
+        deliverytype:'Self Pickup/Delivery',
         image: 'assets/s14/Logo/CaringPhamarcy-Logo.PNG',
         categories: [
           {
@@ -2742,6 +2756,7 @@ export class FakeDataService {
         icon: '',
         phoneNumber: '60172064542',
         deliveryFee: 0.00,
+        deliverytype:'Self Pickup/Delivery',
         image: 'assets/s15/Logo/PanFoodTruck-Logo.jpg',
         categories: [
           {
@@ -2839,6 +2854,7 @@ export class FakeDataService {
         icon: '',
         phoneNumber: '0162746474',
         deliveryFee: 0.00,
+        deliverytype:'Self Pickup/Delivery',
         image: 'assets/s16/Logo/DurianKingTTDI-Logo.jpg',
         categories: [
           {
