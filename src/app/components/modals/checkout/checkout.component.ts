@@ -65,24 +65,26 @@ export class CheckoutComponent implements OnInit {
   const url = `https://wa.me/${this.phoneNumber}?text=
     %0aOrder No:%20 ${data.id}%0a
       Name:%20 ${data.CName}%0a
+      ${this.setUrl()}%0a
       Total Amount:%20  ${data.toPay}%0a
-      Address:%20  ${data.CAddress || `N/A`}%0a
-      Delivery Type:%20${this.as.activeDelivery.label}%0a`;
+      
+      `;
 
     await Browser.open({ url });
   }
   // Add it below name
-  // ${this.setUrl()}%0a
+  // Address:%20  ${data.CAddress || `N/A`}%0a
+//   Delivery Type:%20${this.as.activeDelivery.label}%0a
 
-//   setUrl() {
-//     let res = ``;
+  setUrl() {
+    let res = ``;
 
-//     this.as.orders.forEach((order) => {
-//       res += (`Item name: ${order.count} x ${order.name}%0a Item Price Amount: RM ${order.price}%0a`)
-//     });
+    this.as.orders.forEach((order) => {
+      res += (`Item name: ${order.count} x ${order.name}%0a Item Price Amount: RM ${order.price}%0a`)
+    });
 
-//     return res;
-//   }
+    return res;
+  }
 
 //   async getCurrentLocation() {
 //     if (this.as.activeDelivery.id !== 1)
