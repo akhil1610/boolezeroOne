@@ -4,7 +4,7 @@ import { AccountService } from './../../../services/account.service';
 
 import { Browser } from '@capacitor/browser';
 
-import { Geolocation } from '@capacitor/geolocation'
+// import { Geolocation } from '@capacitor/geolocation'
 
 declare var google;
 @Component({
@@ -64,11 +64,9 @@ export class CheckoutComponent implements OnInit {
 
   const url = `https://wa.me/${this.phoneNumber}?text=
     %0aOrder No:%20 ${data.id}%0a
-      Name:%20 ${data.CName}%0a
-      ${this.setUrl()}%0a
-      Total Amount:%20  ${data.toPay}%0a
-      
-      `;
+    Name:%20 ${data.CName}%0a
+    ${this.setUrl()}%0a
+    Total Amount:%20  ${data.toPay}%0a`;
 
     await Browser.open({ url });
   }
@@ -80,7 +78,7 @@ export class CheckoutComponent implements OnInit {
     let res = ``;
 
     this.as.orders.forEach((order) => {
-      res += (`Item name: ${order.count} x ${order.name}%0a Item Price Amount: RM ${order.price}%0a`)
+      res += (`%0aItem name: %20${order.count} x ${order.name}%0aItem Price Amount: RM ${order.price}%0a`)
     });
 
     return res;
