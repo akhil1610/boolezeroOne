@@ -64,9 +64,11 @@ export class CheckoutComponent implements OnInit {
 
   const url = `https://wa.me/${this.phoneNumber}?text=
     %0aOrder No:%20 ${data.id}%0a
-    Name:%20 ${data.CName}%0a
+    ${data.CName}, will like to order the following:%0a
+    -------------------------------%0a
+
     ${this.setUrl()}%0a
-    Total Amount:%20  ${data.toPay}%0a`;
+    Total Amount:%20RM ${data.toPay}%0a`;
 
     await Browser.open({ url });
   }
