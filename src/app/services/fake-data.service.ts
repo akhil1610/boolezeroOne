@@ -324,7 +324,7 @@ export class FakeDataService {
         avatarImage: 'assets/s2/banner/Haircut.jpg',
         logo: 'assets/s2/icon/Capture-HairCutSaloon.PNG',
         icon: '',
-        phoneNumber: '601116123179',
+        phoneNumber: '60139809689',
         deliveryFee: 0.0,
         image: 'assets/s2/icon/Capture-HairCutSaloon.PNG',
         categories: [
