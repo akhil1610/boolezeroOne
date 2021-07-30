@@ -36,9 +36,9 @@ export class CheckoutComponent implements OnInit {
     this.getCurrentLocation();
   }
 
-  ionViewDidEnter() {
-    this.getPlaceAutocomplete();
-  }
+//   ionViewDidEnter() {
+//     this.getPlaceAutocomplete();
+//   }
 
   async dismiss() {
     await this.modalCtrl.dismiss();
