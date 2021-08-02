@@ -2967,6 +2967,86 @@ export class FakeDataService {
 
         ],
       },
+      // Store #17
+      {
+        id: 'ZE00045',
+        name: 'Tumeric Ginger Drink',
+        raddress: 'Kuala Lumpur.',
+        reviewsCount: 4,
+        qualification: 5,
+        openingHour: 10,
+        backgroundImage: 'assets/s17/Logo/GingerTumeric-Background.jpg',
+        avatarImage: 'assets/s17/Logo/GingerTumeric-Background.jpg',
+        logo: 'assets/s17/Logo/GingerTumericDrink-Logo.PNG',
+        icon: '',
+        phoneNumber: '60123090650',
+        deliveryFee: 0.00,
+        deliverytype:'Self Pickup/Delivery',
+        image: 'assets/s17/Logo/GingerTumericDrink-Logo.PNG',
+        categories: [
+          {
+            id: 1,
+            title: "Main",
+            active: true,
+          },
+        ],
+        plates: [
+          {
+            id: 1,
+            categoryId: 2,
+            name: "TURMERIC GINGER HONEY LEMON BOOSTER SHOT",
+            description: "One Litre Bottle (1 Btl × 1L)",
+            price: 50.00,
+            count: 0,
+            image: "assets/s17/GingerTumericDrink-SKU1_2.PNG",
+          },
+          {
+            id: 2,
+            categoryId: 2,
+            name: "TURMERIC GINGER HONEY LEMON BOOSTER SHOT",
+            description: "One Week Set (7 Btls × 150ml)",
+            price: 60.00,
+            count: 0,
+            image: "assets/s17/GingerTumericDrink-SKU1_2.PNG",
+          },
+        ],
+      },
+      // Store #18
+      {
+        id: 'ZE00057',
+        name: 'Dragon Ocean Fishery',
+        raddress: 'Klang valley',
+        reviewsCount: 4,
+        qualification: 5,
+        openingHour: 10,
+        backgroundImage: 'assets/s18/Logo/TigerPrawn-background.jpeg',
+        avatarImage: 'assets/s18/Logo/TigerPrawn-background.jpeg',
+        logo: 'assets/s18/Logo/TigerPrawn-ZE00057-Logo.PNG',
+        icon: '',
+        phoneNumber: '60176071288',
+        deliveryFee: 0.00,
+        deliverytype:'Self Pickup/Delivery',
+        image: 'assets/s18/Logo/TigerPrawn-ZE00057-Logo.PNG',
+        categories: [
+          {
+            id: 1,
+            title: "Main",
+            active: true,
+          },
+        ],
+        plates: [
+          {
+            id: 1,
+            categoryId: 2,
+            name: "Live Tiger Prawn - Fresh in the tank",
+            description: "Size of your palm. Order for delivery to door by us. Prawn alive. 1KG RM55 (min order 2KG for delivery)",
+            price: 55.00,
+            count: 0,
+            image: "assets/s18/TigerPrawn-ZE00057-SKU1-Image1.PNG",
+          },
+          
+        ],
+      },
 
 
     ];
