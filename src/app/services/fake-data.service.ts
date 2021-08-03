@@ -2852,7 +2852,7 @@ export class FakeDataService {
         avatarImage: 'assets/s16/Logo/DurianKingTTDI-SKU1.jpg',
         logo: 'assets/s16/Logo/DurianKingTTDI-Logo.jpg',
         icon: '',
-        phoneNumber: '0162746474',
+        phoneNumber: '60162746474',
         deliveryFee: 0.00,
         deliverytype:'Self Pickup/Delivery',
         image: 'assets/s16/Logo/DurianKingTTDI-Logo.jpg',
