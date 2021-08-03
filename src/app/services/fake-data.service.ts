@@ -1410,7 +1410,7 @@ export class FakeDataService {
           {
             id: 1,
             categoryId: 2,
-            name: "Roasted Whole Chicken",
+            name: "RC1 - Roasted Whole Chicken",
             description: "",
             price: 58.00,
             count: 0,
@@ -1419,7 +1419,7 @@ export class FakeDataService {
           {
             id: 2,
             categoryId: 2,
-            name: "Roasted Half Chicken",
+            name: "RC2 - Roasted Half Chicken",
             description: "",
             price: 30.00,
             count: 0,
@@ -1428,7 +1428,7 @@ export class FakeDataService {
           {
             id: 3,
             categoryId: 2,
-            name: "Roasted 1/4 Down Chicken",
+            name: "RC3 - Roasted 1/4 Down Chicken",
             description: "",
             price: 18.00,
             count: 0,
@@ -1437,7 +1437,7 @@ export class FakeDataService {
           {
             id: 4,
             categoryId: 2,
-            name: "Roasted 1/4 Up Chicken",
+            name: "RC4 - Roasted 1/4 Up Chicken",
             description: "",
             price: 15.00,
             count: 0,
@@ -1446,7 +1446,7 @@ export class FakeDataService {
           {
             id: 5,
             categoryId: 2,
-            name: "Roasted Chicken Rice-Drumstick",
+            name: "RC5 - Roasted Chicken Rice-Drumstick",
             description: "",
             price: 9.00,
             count: 0,
@@ -1455,7 +1455,7 @@ export class FakeDataService {
           {
             id: 6,
             categoryId: 2,
-            name: "Roasted Regular Chicken Rice",
+            name: "RC6 - Roasted Regular Chicken Rice",
             description: "",
             price: 8.00,
             count: 0,
@@ -1464,7 +1464,7 @@ export class FakeDataService {
           {
             id: 7,
             categoryId: 3,
-            name: "Steam Whole Chicken",
+            name: "SC1 - Steam Whole Chicken",
             description: "",
             price: 65.00,
             count: 0,
@@ -1473,7 +1473,7 @@ export class FakeDataService {
           {
             id: 8,
             categoryId: 3,
-            name: "Steam Half Chicken",
+            name: "SC2 - Steam Half Chicken",
             description: "",
             price: 35.00,
             count: 0,
@@ -1482,7 +1482,7 @@ export class FakeDataService {
           {
             id: 9,
             categoryId: 3,
-            name: "Steam 1/4 Down Chicken",
+            name: "SC3 - Steam 1/4 Down Chicken",
             description: "",
             price: 25.00,
             count: 0,
@@ -1491,7 +1491,7 @@ export class FakeDataService {
           {
             id: 10,
             categoryId: 3,
-            name: "Steam 1/4 Up Chicken",
+            name: "SC4 - Steam 1/4 Up Chicken",
             description: "",
             price: 20.00,
             count: 0,
@@ -1500,7 +1500,7 @@ export class FakeDataService {
           {
             id: 11,
             categoryId: 3,
-            name: "Steam Chicken Rice-Drumstick",
+            name: "SC5 - Steam Chicken Rice-Drumstick",
             description: "",
             price: 11.00,
             count: 0,
@@ -1509,7 +1509,7 @@ export class FakeDataService {
           {
             id: 12,
             categoryId: 3,
-            name: "Steam Regular Chicken Rice",
+            name: "SC6 - Steam Regular Chicken Rice",
             description: "",
             price: 10.00,
             count: 0,
@@ -1518,7 +1518,7 @@ export class FakeDataService {
           {
             id: 13,
             categoryId: 4,
-            name: "Butter Chicken Chop",
+            name: "C1 - Butter Chicken Chop",
             description: "",
             price: 15.00,
             count: 0,
@@ -1527,7 +1527,7 @@ export class FakeDataService {
           {
             id: 14,
             categoryId: 4,
-            name: "Hainan Chicken Chop",
+            name: "C2 - Hainan Chicken Chop",
             description: "",
             price: 15.00,
             count: 0,
@@ -1536,7 +1536,7 @@ export class FakeDataService {
           {
             id: 15,
             categoryId: 4,
-            name: "SOS Mango Chicken Chop",
+            name: "C3 - SOS Mango Chicken Chop",
             description: "",
             price: 15.00,
             count: 0,
@@ -1545,7 +1545,7 @@ export class FakeDataService {
           {
             id: 16,
             categoryId: 4,
-            name: "Blackpepper Chicken Chop",
+            name: "C4 - Blackpepper Chicken Chop",
             description: "",
             price: 15.00,
             count: 0,
@@ -1554,7 +1554,7 @@ export class FakeDataService {
           {
             id: 17,
             categoryId: 4,
-            name: "Salted Egg Chicken Chop",
+            name: "C5 - Salted Egg Chicken Chop",
             description: "",
             price: 18.00,
             count: 0,
@@ -1563,7 +1563,7 @@ export class FakeDataService {
           {
             id: 18,
             categoryId: 5,
-            name: "Whole Duck",
+            name: "BD1 - Whole Duck",
             description: "",
             price: 65.00,
             count: 0,
@@ -1572,7 +1572,7 @@ export class FakeDataService {
           {
             id: 19,
             categoryId: 5,
-            name: "Half Duck",
+            name: "BD2 - Half Duck",
             description: "",
             price: 35.00,
             count: 0,
@@ -1581,7 +1581,7 @@ export class FakeDataService {
           {
             id: 20,
             categoryId: 5,
-            name: "1/4 Down Duck",
+            name: "BD3 - 1/4 Down Duck",
             description: "",
             price: 25.00,
             count: 0,
@@ -1590,7 +1590,7 @@ export class FakeDataService {
           {
             id: 21,
             categoryId: 5,
-            name: "1/4 Up Duck",
+            name: "BD4 - 1/4 Up Duck",
             description: "",
             price: 20.00,
             count: 0,
@@ -1599,7 +1599,7 @@ export class FakeDataService {
           {
             id: 22,
             categoryId: 5,
-            name: "Duck Rice Drumstick",
+            name: "BD5 - Duck Rice Drumstick",
             description: "",
             price: 11.00,
             count: 0,
@@ -1608,7 +1608,7 @@ export class FakeDataService {
           {
             id: 23,
             categoryId: 5,
-            name: "Regular Duck Rice",
+            name: "BD6 - Regular Duck Rice",
             description: "",
             price: 10.00,
             count: 0,
@@ -1617,7 +1617,7 @@ export class FakeDataService {
           {
             id: 24,
             categoryId: 6,
-            name: "Roasted with Dumpling",
+            name: "WN1 - Roasted with Dumpling",
             description: "RM8.00/RM9.00",
             price: 9.00,
             count: 0,
@@ -1626,7 +1626,7 @@ export class FakeDataService {
           {
             id: 25,
             categoryId: 6,
-            name: "Steamed with Dumpling",
+            name: "WN2 - Steamed with Dumpling",
             description: "RM10.00/RM11.00",
             price: 11.00,
             count: 0,
@@ -1635,7 +1635,7 @@ export class FakeDataService {
           {
             id: 26,
             categoryId: 6,
-            name: "Beijing Duck with Dumpling",
+            name: "WN3 - Beijing Duck with Dumpling",
             description: "RM10.00/RM11.00",
             price: 11.00,
             count: 0,
@@ -1644,7 +1644,7 @@ export class FakeDataService {
           {
             id: 27,
             categoryId: 6,
-            name: "BBQ Wantan Noodle",
+            name: "WN4 - BBQ Wantan Noodle",
             description: "",
             price: 9.00,
             count: 0,
@@ -1653,7 +1653,7 @@ export class FakeDataService {
           {
             id: 28,
             categoryId: 6,
-            name: "Beef Noodle",
+            name: "WN5 - Beef Noodle",
             description: "",
             price: 12.00,
             count: 0,
@@ -1662,7 +1662,7 @@ export class FakeDataService {
           {
             id: 29,
             categoryId: 7,
-            name: "Bean Sprout",
+            name: "SS1 - Bean Sprout",
             description: "",
             price: 6.00,
             count: 0,
@@ -1671,7 +1671,7 @@ export class FakeDataService {
           {
             id: 30,
             categoryId: 7,
-            name: "Pak Choi",
+            name: "SS2 - Pak Choi",
             description: "",
             price: 6.00,
             count: 0,
@@ -1680,7 +1680,7 @@ export class FakeDataService {
           {
             id: 31,
             categoryId: 7,
-            name: "Yow Mak",
+            name: "SS3 - Yow Mak",
             description: "",
             price: 6.00,
             count: 0,
