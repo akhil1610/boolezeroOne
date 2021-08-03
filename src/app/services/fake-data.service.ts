@@ -3047,6 +3047,60 @@ export class FakeDataService {
           
         ],
       },
+      // Store #19
+      {
+        id: 'ZE00022',
+        name: 'Satay Akib',
+        raddress: 'Damansara Perdana. Petaling Jaya. Selangor.',
+        reviewsCount: 4,
+        qualification: 5,
+        openingHour: 10,
+        backgroundImage: 'assets/s19/Logo/SatayAkib-Background.jpg',
+        avatarImage: 'assets/s19/Logo/SatayAkib-Background.jpg',
+        logo: 'assets/s19/Logo/SatayAkib-Logo.PNG',
+        icon: '',
+        phoneNumber: '60107653312',
+        deliveryFee: 0.00,
+        deliverytype: 'Self Pickup/Delivery',
+        image: 'assets/s19/Logo/SatayAkib-Logo.PNG',
+        categories: [
+          {
+            id: 1,
+            title: "Main",
+            active: true,
+          },
+        ],
+        plates: [
+          {
+            id: 1,
+            categoryId: 2,
+            name: "Satay Ayam",
+            description: "Secucuk",
+            price: 0.80,
+            count: 0,
+            image: "assets/s19/SatayAkib-SKU1&SKU2.jpg",
+          },
+          {
+            id: 2,
+            categoryId: 2,
+            name: "Satay Daging",
+            description: "Secucuk",
+            price: 1.00,
+            count: 0,
+            image: "assets/s19/SatayAkib-SKU1&SKU2.jpg",
+          },
+          {
+            id: 3,
+            categoryId: 2,
+            name: "Nasi Impit",
+            description: "Satu",
+            price: 1.00,
+            count: 0,
+            image: "assets/s19/SatayAkib-SKU3.jpg",
+          },
+
+        ],
+      },
 
 
     ];
