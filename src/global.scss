@@ -24,3 +24,31 @@
 @import "~@ionic/angular/css/text-alignment.css";
 @import "~@ionic/angular/css/text-transformation.css";
 @import "~@ionic/angular/css/flex-utils.css";
+
+
+:root {
+    --primary: #e44126;
+    --primary-nav: beige;
+    --secondary: #0a1f44;
+    --primary-invert: #fff;
+    --secondary-invert: #fff;
+  
+     /* DEFAULT COLOR OF ALERT TEXT */
+     --alert-text-primary: #fff;
+     
+    /* DEFAULT COLOR OF TEXTS */
+    --text-primary: #0a1f44;
+    
+    /* FOR BUTTONS & INPUTS */
+    --elements-roundness: 10rem;
+  
+    --space-between-blocks: 5.3rem;
+    /* for mobiles */
+    --space-between-blocks-small-screens: 3rem;
+  }
+  
+  body {
+    font-family: 'Poppins', sans-serif;
+    color: var(--alert-text-primary);
+  }
+  
