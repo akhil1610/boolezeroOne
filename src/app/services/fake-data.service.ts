@@ -3132,7 +3132,7 @@ export class FakeDataService {
             description: "Approved by KKM. Natural Oxygen Booster by ESC Gases. 99% Pure Oxygen ",
             price: 28.00,
             count: 0,
-            image: "assets/s19/SatayAkib-SKU1&SKU2.jpg",
+            image: "assets/s20/Oxy999-SKU1.PNG",
           },
 
 
