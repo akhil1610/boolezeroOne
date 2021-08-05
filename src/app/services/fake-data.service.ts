@@ -3130,7 +3130,7 @@ export class FakeDataService {
             categoryId: 2,
             name: "Portable Oxygen Booster",
             description: "Approved by KKM. Natural Oxygen Booster by ESC Gases. 99% Pure Oxygen ",
-            price: 0,
+            price: 28.00,
             count: 0,
             image: "assets/s19/SatayAkib-SKU1&SKU2.jpg",
           },
@@ -3402,7 +3402,114 @@ export class FakeDataService {
 
         ],
       },
-      
+      // Store #24
+      {
+        id: 'ZE00069',
+        name: 'Tapai Pulut Cik Won',
+        raddress: 'Klang Valley.',
+        reviewsCount: 4,
+        qualification: 5,
+        openingHour: 10,
+        backgroundImage: 'assets/s24/Logo/TapaiPulut-Background.jpg',
+        avatarImage: 'assets/s24/Logo/TapaiPulut-Background.jpg',
+        logo: 'assets/s24/Logo/TapaiPulut-Logo.jpg',
+        icon: '',
+        phoneNumber: '60176846013',
+        deliveryFee: 0.00,
+        deliverytype: 'Delivery Only',
+        image: 'assets/s24/Logo/TapaiPulut-Logo.jpg',
+        categories: [
+          {
+            id: 1,
+            title: "Main",
+            active: true,
+          },
+        ],
+        plates: [
+          {
+            id: 1,
+            categoryId: 2,
+            name: "Set A: 20 containers",
+            description: "homemade tapai. manis sweet. sekali cuba, nak lagi.",
+            price: 20.00,
+            count: 0,
+            image: "assets/s24/TapaiPulut-SKU1-2-3.jpg",
+          },
+          {
+            id: 2,
+            categoryId: 2,
+            name: "Set A: 48 containersv",
+            description: "homemade tapai. manis sweet. sekali cuba, nak lagi.",
+            price: 48.00,
+            count: 0,
+            image: "assets/s24/TapaiPulut-SKU1-2-3.jpg",
+          },
+          {
+            id: 3,
+            categoryId: 2,
+            name: "Set A: 60 containers (free 3 containers)",
+            description: "homemade tapai. manis sweet. sekali cuba, nak lagi.",
+            price: 60.00,
+            count: 0,
+            image: "assets/s24/TapaiPulut-SKU1-2-3.jpg",
+          },
+
+        ],
+      },
+      // Store #25
+      {
+        id: 'ZE000106',
+        name: 'Shan Cheng Durian Penang!',
+        raddress: 'Penang - Bukit Mertajam/KL/Klang Valley.',
+        reviewsCount: 4,
+        qualification: 5,
+        openingHour: 10,
+        backgroundImage: 'assets/s25/Logo/DurianPenang-Background.jpg',
+        avatarImage: 'assets/s25/Logo/DurianPenang-Background.jpg',
+        logo: 'assets/s25/Logo/DurianPenang-Background.jpg',
+        icon: '',
+        phoneNumber: '60102748988',
+        deliveryFee: 0.00,
+        deliverytype: 'Delivery Only',
+        image: 'assets/s25/Logo/DurianPenang-Background.jpg',
+        categories: [
+          {
+            id: 1,
+            title: "Main",
+            active: true,
+          },
+        ],
+        plates: [
+          {
+            id: 1,
+            categoryId: 2,
+            name: "4 Boxes Durian",
+            description: "straight from balik pulau penang to your door step. Delivery Fee RM25 Durian varieties will vary throughout the season. Please be informed that you might get duplicates of durian varieties.",
+            price: 180.00,
+            count: 0,
+            image: "assets/s25/DurianPenang-SKU1-2-3.jpeg",
+          },
+          {
+            id: 2,
+            categoryId: 2,
+            name: "6 Boxes Durian",
+            description: "straight from balik pulau penang to your door step. Delivery Fee RM25 Durian varieties will vary throughout the season. Please be informed that you might get duplicates of durian varieties.",
+            price: 258.00,
+            count: 0,
+            image: "assets/s25/DurianPenang-SKU1-2-3.jpeg",
+          },
+          {
+            id: 3,
+            categoryId: 2,
+            name: "8 Boxes Durian",
+            description: "straight from balik pulau penang to your door step. Delivery Fee RM25 Durian varieties will vary throughout the season. Please be informed that you might get duplicates of durian varieties.",
+            price: 320.00,
+            count: 0,
+            image: "assets/s25/DurianPenang-SKU1-2-3.jpeg",
+          },
+
+        ],
+      },
       
 
     ];
