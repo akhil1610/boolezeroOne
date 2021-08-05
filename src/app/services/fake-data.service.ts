@@ -3438,7 +3438,7 @@ export class FakeDataService {
           {
             id: 2,
             categoryId: 2,
-            name: "Set A: 48 containersv",
+            name: "Set B: 48 containers",
             description: "homemade tapai. manis sweet. sekali cuba, nak lagi.",
             price: 48.00,
             count: 0,
@@ -3447,7 +3447,7 @@ export class FakeDataService {
           {
             id: 3,
             categoryId: 2,
-            name: "Set A: 60 containers (free 3 containers)",
+            name: "Set C: 60 containers (free 3 containers)",
             description: "homemade tapai. manis sweet. sekali cuba, nak lagi.",
             price: 60.00,
             count: 0,
@@ -3515,8 +3515,8 @@ export class FakeDataService {
       // Store #26
       {
         id: 'ZE00032',
-        name: 'Shan Cheng Durian Penang!',
-        raddress: 'Penang - Bukit Mertajam/KL/Klang Valley.',
+        name: 'SCR.Resin',
+        raddress: 'No.65, Jalan Daya 1, Taman Daya Kepong,52100 Kuala Lumpur.',
         reviewsCount: 4,
         qualification: 5,
         openingHour: 10,
@@ -3524,7 +3524,7 @@ export class FakeDataService {
         avatarImage: 'assets/s26/PINKMAHJONG3.JPG',
         logo: 'assets/s26/Round4.jpg',
         icon: '',
-        phoneNumber: '+60124010204',
+        phoneNumber: '60199101341',
         deliveryFee: 0.00,
         deliverytype: 'Self Pick Up/Grab',
         image: 'assets/s26/Round4.jpg',
