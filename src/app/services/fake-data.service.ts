@@ -3522,12 +3522,12 @@ export class FakeDataService {
         openingHour: 10,
         backgroundImage: 'assets/s26/PINKMAHJONG3.JPG',
         avatarImage: 'assets/s26/PINKMAHJONG3.JPG',
-        logo: 'assets/s26/Round4.jpg',
+        logo: 'assets/s26/Logo/logo.jpeg',
         icon: '',
         phoneNumber: '60199101341',
         deliveryFee: 0.00,
         deliverytype: 'Self Pick Up/Grab',
-        image: 'assets/s26/Round4.jpg',
+        image: 'assets/s26/Logo/logo.jpeg',
         categories: [
           {
             id: 1,
