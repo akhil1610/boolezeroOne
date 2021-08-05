@@ -3511,7 +3511,82 @@ export class FakeDataService {
         ],
       },
       
+      
+      // Store #26
+      {
+        id: 'ZE00032',
+        name: 'Shan Cheng Durian Penang!',
+        raddress: 'Penang - Bukit Mertajam/KL/Klang Valley.',
+        reviewsCount: 4,
+        qualification: 5,
+        openingHour: 10,
+        backgroundImage: 'assets/s26/PINKMAHJONG3.JPG',
+        avatarImage: 'assets/s26/PINKMAHJONG3.JPG',
+        logo: 'assets/s26/Round4.jpg',
+        icon: '',
+        phoneNumber: '+60124010204',
+        deliveryFee: 0.00,
+        deliverytype: 'Self Pick Up/Grab',
+        image: 'assets/s26/Round4.jpg',
+        categories: [
+          {
+            id: 1,
+            title: "Main",
+            active: true,
+          },
+        ],
+        plates: [
+          {
+            id: 1,
+            categoryId: 2,
+            name: "Resin Mahjong (3players (84pcs:38mm) RM300+-)",
+            description: "Handmade Customize Resin Mahjong,Customize your mahjong ① Font Colour ② Font Background Colour ③ Theme ④ Additional Accessories,Each pcs of mahjong is handmade by ourselves, pre order require 7-10days to make. All products are handmade, may have imperfection ",
+            price: 300.00,
+            count: 0,
+            image: "assets/s26/BLUEMAHJONG1.jpg",
+          },
+          {
+            id: 2,
+            categoryId: 2,
+            name: "Resin Mahjong (4players (164pcs:38mm) RM400+-)",
+            description: "Handmade Customize Resin Mahjong,Customize your mahjong ① Font Colour ② Font Background Colour ③ Theme ④ Additional Accessories,Each pcs of mahjong is handmade by ourselves, pre order require 7-10days to make. All products are handmade, may have imperfection ",
+            price: 400.00,
+            count: 0,
+            image: "assets/s26/PINKMAHJONG2.JPG",
+          },
+          {
+            id: 3,
+            categoryId: 2,
+            name: "Round Coaster (6cm) - Purchase 5 pieces and above RM10 per piece",
+            description: "Each coasters are handmade. Pre order require 4-5 working days to make,Type of Coasters ① Round Coaster (6cm) RM15 per piece,- Purchase 5 pieces and above RM10 per piece, ② Hexagon Coaster (10cm) RM25per piece,- purchase 2 piece for only RM40",
+            price: 15.00,
+            count: 0,
+            image: "assets/s26/Round2.jpg",
+          },
+          {
+            id: 4,
+            categoryId: 2,
+            name: "Hexagon Coaster (10cm) - purchase 2 piece for only RM40",
+            description: "Each coasters are handmade. Pre order require 4-5 working days to make,Type of Coasters ① Round Coaster (6cm) RM15 per piece,- Purchase 5 pieces and above RM10 per piece, ② Hexagon Coaster (10cm) RM25per piece,- purchase 2 piece for only RM40",
+            price: 25.00,
+            count: 0,
+            image: "assets/s26/Hexagon1.jpg",
+          },
+          {
+            id: 5,
+            categoryId: 2,
+            name: "Resin Journals(Dimension (H) 21.6cm X (W) 15.6cm with 6 holes comes with 48pcs page sheets)",
+            description: "Handmade Resin Journal for any type of occasion, Shimmer colour with gold/silver/rose gold foil or glitter. Everything customisable.All Resin Journal are handmade and Pre order : (4-5) working days, The price will be different depends on the design & accessories needed ",
+            price: 320.00,
+            count: 0,
+            image: "assets/s26/ResinJournal1.jpg",
+          },
 
+
+        ],
+      },
+      
+      
     ];
   }
 }
