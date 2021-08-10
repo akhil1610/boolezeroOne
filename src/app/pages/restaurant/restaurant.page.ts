@@ -25,7 +25,8 @@ export class RestaurantPage implements OnInit {
   public plates: any = [];
   public platesCopy: any = [];
 
-  public backgroundImage: string ="https://images.pexels.com/photos/461428/pexels-photo-461428.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
+  public backgroundImage: string;
+//   ="https://images.pexels.com/photos/461428/pexels-photo-461428.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
   public avatarImage: string ="https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500";
 
   public id: string = null;
