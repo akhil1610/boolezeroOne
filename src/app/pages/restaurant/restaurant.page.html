@@ -19,7 +19,8 @@
     <ion-card mode="md">
       <ion-item lines="none">
         <ion-thumbnail slot="start">
-          <img src="{{restaurant.logo || './../../assets/ZERO.svg'}}">       
+          <img src="{{restaurant.logo }}">    
+<!--           || './../../assets/ZERO.svg' -->
         </ion-thumbnail>
         <ion-label>
           <p class="title">{{restaurant.name}}</p>
@@ -37,7 +38,8 @@
         <ion-avatar slot="end">
           <!-- <img
             src="{{restaurant.icon || 'https://img2.freepng.es/20180627/coq/kisspng-vegetarian-cuisine-indian-cuisine-food-recipe-side-nasi-lemak-5b33652e9fdc59.8859384915300948946548.jpg'}}"> -->
-            <img src="{{restaurant.icon || './../../assets/ZERO.svg'}}">
+            <img src="{{restaurant.icon}}">
+<!--            || './../../assets/ZERO.svg' -->
           </ion-avatar>
       </ion-item>
       <ion-button class="reset" mode="ios" expand="full" size="small" color="warning">
