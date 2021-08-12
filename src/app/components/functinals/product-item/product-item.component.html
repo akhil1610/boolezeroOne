@@ -1,6 +1,6 @@
 <ion-item class="separate"  lines="inset">
   <ion-thumbnail slot="start">
-    <img class="border" [src]="plate.image">
+   <img class="border" [src]="plate.image"  tappable (click)="openPreview(plate.image)">
   </ion-thumbnail>
   <ion-label text-wrap>
     <p style="color: black">{{plate.name}}</p>
