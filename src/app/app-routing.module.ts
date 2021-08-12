@@ -23,6 +23,10 @@ const routes: Routes = [
     path: 'onlinestore/:id',
     loadChildren: () => import('./pages/restaurant/restaurant.module').then( m => m.RestaurantPageModule)
   },
+  {
+    path: 'image-modal',
+    loadChildren: () => import('./pages/image-modal/image-modal.module').then( m => m.ImageModalPageModule)
+  },
 ];
 
 @NgModule({
