@@ -4547,7 +4547,7 @@ export class FakeDataService {
             description: "",
             price: 12.00,
             count: 0,
-            image: "assets/s29/f1.jpeg",
+             image: "assets/s30/nissinNoodleSoup.jpg",
           },
           {
             id: 13,
