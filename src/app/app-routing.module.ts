@@ -27,6 +27,10 @@ const routes: Routes = [
     path: 'image-modal',
     loadChildren: () => import('./pages/image-modal/image-modal.module').then( m => m.ImageModalPageModule)
   },
+  {
+    path: 'privacypolicy',
+    loadChildren: () => import('./pages/privacypolicy/privacypolicy.module').then( m => m.PrivacypolicyPageModule)
+  },
 ];
 
 @NgModule({
