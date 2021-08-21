@@ -7229,7 +7229,7 @@ export class FakeDataService {
       },
       
       // Store #36
-       {
+      {
         id: 'ZE00154',
         name: "E-Petani Store",
         raddress: 'Kota Damansara. Selangor.',
@@ -7237,7 +7237,7 @@ export class FakeDataService {
         qualification: 5,
         openingHour: 10,
         backgroundImage: 'assets/s36/Logo/banner.png',
-        avatarImage: '',
+        avatarImage: 'assets/s36/Logo/banner.png',
         logo: 'assets/s36/Logo/Logo.png',
         icon: '',
         phoneNumber: '601139922791',
@@ -7277,7 +7277,7 @@ export class FakeDataService {
             description: "Asam Pedas Set,  Terung (Eggplant) x 1kg, Bendi (Lady's Finger) x 1kg, Tomatoes x 1kg, Kacang Panjang (Long Bean) x 1kg, Timun Jepun (Japanese cucumber) x 1kg, Limau (Lime) 500grams, Epal Merah x 6 , Pisang x 1 comb",
             price: 55.00,
             count: 0,
-            image: "assets/s36/3.jfif",
+            image: "assets/s36/3.png",
           },
           {
             id: 4,
@@ -7295,7 +7295,7 @@ export class FakeDataService {
             description: "Buah Naga x 2, Epal Merah x 4 pcs, Epal Hijau x 4pcs, Oren x 4 pcs, Timun Jepun x 500gms,Lobak merah(carrot) x 500gms,Romaine x1,Guava x 2",
             price: 48.00,
             count: 0,
-            image: "assets/s36/5.jfif",
+            image: "assets/s36/5.png",
           },
           {
             id: 6,
@@ -7304,7 +7304,7 @@ export class FakeDataService {
             description: "Sawi Putih (Siew Bok Choy) 500gms, Lobak merah (carrot) 500gms, Tomatoes 500gms, Terung (Eggplant) 500gms, Bendi (Lady's Finger) , Epal Merah x 4 ,Banana x 1/2 comb",
             price: 40.00,
             count: 0,
-            image: "assets/s36/6.jfif",
+            image: "assets/s36/6.png",
           },
           {
             id: 7,
@@ -7313,7 +7313,7 @@ export class FakeDataService {
             description: "Kobis Panjang (Chinese Cabbage) x 1kg +/-, Lobak Putih (White Raddish) x 1kg +/-, Kailan (Chinese Brocolli) x 1kg +/-, Sawi (Choy Sum) x 1kg +/-, Tomato x 1kg +/-, Kentang(Potatoes) x 1kg +/-, Pisang (Banana) x 1kg +/-, Limau x 1kg +/-, Guava/ Dragon Fruits x 2 nos (E-petani will select whichever available), Oren (Oranges) x 5 nos",
             price: 60.00,
             count: 0,
-            image: "assets/s36/7.jfif",
+            image: "assets/s36/7.png",
           },
           {
             id: 8,
@@ -7322,7 +7322,7 @@ export class FakeDataService {
             description: "Kacang Buncis (French Beans) x 1kg +/-, Sawi Putih (Siew Bak Choy) x 1kg +/-, Terung (Eggplant) x 1kg +/-, Kentang (Potatoes) x 1kg +/-, Tomato x 1kg +/-, Japanese Cucumber x 1kg +/-, Limau x 1kg +/-, Guava/ Dragon Fruits x 2 nos (E-petani will select whichever available), Oren (Oranges) x 5 nos",
             price: 62.00,
             count: 0,
-            image: "assets/s36/8.jfif",
+            image: "assets/s36/8.png",
           },
           {
             id: 9,
@@ -7331,7 +7331,7 @@ export class FakeDataService {
             description: "Bendi (Lady's Finger) x 1kg,  Kacang Panjang (Long Bean) x 1 kg, Tomatoes x 1kg, Potatoes x 1kg, Kobis (Cabbage) x 1kg, Lobak merah (carrot) x 1kg, Timun (Cucumber) x 1kg, Limau (Lime), Epal Hijau x 6, Oren (Oranges) x 6",
             price: 58.00,
             count: 0,
-            image: "assets/s36/9.jfif",
+            image: "assets/s36/9.png",
           },
           {
             id: 10,
@@ -7340,7 +7340,7 @@ export class FakeDataService {
             description: "Epal Hijau (Green Apple) x 6 ,  Timun (Cucumber) x 1kg,  Halia (Ginger) x 1kg,  Kobis (Cabbage) x 1nos",
             price: 25.00,
             count: 0,
-            image: "assets/s36/10.jfif",
+            image: "assets/s36/10.png",
           },
           {
             id: 11,
@@ -7349,7 +7349,7 @@ export class FakeDataService {
             description: "Oren (Oranges) x 5, Epal Merah (Red Apple) x 5, Epal Green (Green Apple) x 5, Pisang (Banana) x 1 comb, Guava/Dragonfruit x 2 nos (E-Petani will select whichever available)",
             price: 40.00,
             count: 0,
-            image: "assets/s36/11.jfif",
+            image: "assets/s36/11.png",
           },
           {
             id: 12,
@@ -7358,7 +7358,7 @@ export class FakeDataService {
             description: "",
             price: 10.00,
             count: 0,
-            image: "assets/s36/12.jfif",
+            image: "assets/s36/12.png",
           },
           {
             id: 13,
@@ -7385,7 +7385,7 @@ export class FakeDataService {
             description: "Choose the items you need from the Ala-Carte list.(Contact Seller)",
             price: 0.00,
             count: 0,
-            image: "assets/s36/15.jfif",
+            image: "assets/s36/15.png",
           },
           {
             id: 16,
@@ -7394,7 +7394,7 @@ export class FakeDataService {
             description: "Kobis (Cabbage) x 1 kg, Sawi Putih (Siew Bok Choy) x 1 kg, Potatoes x 1kg, Lobak merah (carrot) x 1kg, Kailan x 1 kg,  Kacang Buncis (String Bean) x 1kg, Limau (Lime) ,  Guava/Dragonfruit x 4pcs (whichever available), Pisang (Banana) x1 comb",
             price: 62.00,
             count: 0,
-            image: "assets/s36/16.jfif",
+            image: "assets/s36/16.png",
           },
           {
             id: 17,
@@ -7403,7 +7403,7 @@ export class FakeDataService {
             description: "Buah Naga (Dragon Fruit) x 6",
             price: 40.00,
             count: 0,
-            image: "assets/s36/17.jfif",
+            image: "assets/s36/17.png",
           },
           {
             id: 18,
@@ -7412,7 +7412,7 @@ export class FakeDataService {
             description: "Donation CarePack for PPR, Red Cross, Police & Hospitals -One pack of Mix vegetables & fruits *Pls select self-pickup option for this. we will deliver the items to the respective parties complimentary. Thanks for your support. #kitajagakita, #epetanimalaysia",
             price: 20.00,
             count: 0,
-            image: "assets/s36/18.jfif",
+            image: "assets/s36/18.png",
           },
           {
             id: 19,
@@ -7457,7 +7457,7 @@ export class FakeDataService {
             description: "",
             price: 6.00,
             count: 0,
-            image: "assets/s36/23.jfif",
+            image: "assets/s36/23.png",
           },
           {
             id: 24,
@@ -7502,7 +7502,7 @@ export class FakeDataService {
             description: "",
             price: 14.00,
             count: 0,
-            image: "assets/s36/28.jfif",
+            image: "assets/s36/28.png",
           },
           {
             id: 29,
@@ -7520,7 +7520,7 @@ export class FakeDataService {
             description: "",
             price: 11.90,
             count: 0,
-            image: "assets/s36/30.jfif",
+            image: "assets/s36/30.png",
           },
           {
             id: 31,
@@ -7565,7 +7565,7 @@ export class FakeDataService {
             description: "",
             price: 8.80,
             count: 0,
-            image: "assets/s36/35.jfif",
+            image: "assets/s36/35.png",
           },
           {
             id: 36,
@@ -7574,7 +7574,7 @@ export class FakeDataService {
             description: "",
             price: 12.00,
             count: 0,
-            image: "assets/s36/36.jfif",
+            image: "assets/s36/36.png",
           },
           {
             id: 37,
@@ -7583,7 +7583,7 @@ export class FakeDataService {
             description: "",
             price: 5.90,
             count: 0,
-            image: "assets/s36/37.jfif",
+            image: "assets/s36/37.png",
           },
           {
             id: 38,
@@ -7592,7 +7592,7 @@ export class FakeDataService {
             description: "",
             price: 4.20,
             count: 0,
-            image: "assets/s36/38.jfif",
+            image: "assets/s36/38.png",
           },
           {
             id: 39,
@@ -7610,7 +7610,7 @@ export class FakeDataService {
             description: "",
             price: 4.80,
             count: 0,
-            image: "assets/s36/40.jfif",
+            image: "assets/s36/40.png",
           },
           {
             id: 41,
@@ -7619,7 +7619,7 @@ export class FakeDataService {
             description: "",
             price: 4.00,
             count: 0,
-            image: "assets/s36/41.jfif",
+            image: "assets/s36/41.png",
           },
           {
             id: 42,
@@ -7628,7 +7628,7 @@ export class FakeDataService {
             description: "",
             price: 3.20,
             count: 0,
-            image: "assets/s36/42.jfif",
+            image: "assets/s36/42.png",
           },
           {
             id: 43,
@@ -7646,7 +7646,7 @@ export class FakeDataService {
             description: "",
             price: 2.45,
             count: 0,
-            image: "assets/s36/44.jfif",
+            image: "assets/s36/44.png",
           },
           {
             id: 45,
@@ -7655,7 +7655,7 @@ export class FakeDataService {
             description: "",
             price: 2.80,
             count: 0,
-            image: "assets/s36/45.jfif",
+            image: "assets/s36/45.png",
           },
           {
             id: 46,
@@ -7682,7 +7682,7 @@ export class FakeDataService {
             description: "",
             price: 11.50,
             count: 0,
-            image: "assets/s36/48.jfif",
+            image: "assets/s36/48.png",
           },
           {
             id: 49,
@@ -7691,7 +7691,7 @@ export class FakeDataService {
             description: "",
             price: 6.80,
             count: 0,
-            image: "assets/s36/49.jfif",
+            image: "assets/s36/49.png",
           },
           {
             id: 50,
@@ -7700,7 +7700,7 @@ export class FakeDataService {
             description: "",
             price: 8.00,
             count: 0,
-            image: "assets/s36/50.jfif",
+            image: "assets/s36/50.png",
           },
           {
             id: 51,
@@ -7718,7 +7718,7 @@ export class FakeDataService {
             description: "",
             price: 11.80,
             count: 0,
-            image: "assets/s36/52.jfif",
+            image: "assets/s36/52.png",
           },
           {
             id: 53,
@@ -7835,7 +7835,7 @@ export class FakeDataService {
             description: "",
             price: 13.90,
             count: 0,
-            image: "assets/s36/65.jfif",
+            image: "assets/s36/65.png",
           },
           {
             id: 66,
@@ -7844,7 +7844,7 @@ export class FakeDataService {
             description: "",
             price: 7.40,
             count: 0,
-            image: "assets/s36/66.jfif",
+            image: "assets/s36/66.png",
           },
           {
             id: 67,
@@ -7862,7 +7862,7 @@ export class FakeDataService {
             description: "",
             price: 5.50,
             count: 0,
-            image: "assets/s36/68.jfif",
+            image: "assets/s36/68.png",
           },
           {
             id: 69,
@@ -7871,7 +7871,7 @@ export class FakeDataService {
             description: "",
             price: 5.50,
             count: 0,
-            image: "assets/s36/69.jfif",
+            image: "assets/s36/69.png",
           },
           {
             id: 70,
@@ -7880,7 +7880,7 @@ export class FakeDataService {
             description: "",
             price: 2.99,
             count: 0,
-            image: "assets/s36/70.jfif",
+            image: "assets/s36/70.png",
           },
           {
             id: 71,
@@ -7889,7 +7889,7 @@ export class FakeDataService {
             description: "",
             price: 7.50,
             count: 0,
-            image: "assets/s36/71.jfif",
+            image: "assets/s36/71.png",
           },
           {
             id: 72,
@@ -7916,7 +7916,7 @@ export class FakeDataService {
             description: "",
             price: 11.90,
             count: 0,
-            image: "assets/s36/74.jfif",
+            image: "assets/s36/74.png",
           },
           {
             id: 75,
@@ -7925,7 +7925,7 @@ export class FakeDataService {
             description: "",
             price: 14.90,
             count: 0,
-            image: "assets/s36/75.jfif",
+            image: "assets/s36/75.png",
           },
           {
             id: 76,
@@ -7934,7 +7934,7 @@ export class FakeDataService {
             description: "",
             price: 5.90,
             count: 0,
-            image: "assets/s36/76.jfif",
+            image: "assets/s36/76.png",
           },
           {
             id: 77,
@@ -7943,7 +7943,7 @@ export class FakeDataService {
             description: "",
             price: 5.90,
             count: 0,
-            image: "assets/s36/77.jfif",
+            image: "assets/s36/77.png",
           },
           {
             id: 78,
@@ -7952,7 +7952,7 @@ export class FakeDataService {
             description: "",
             price: 10.90,
             count: 0,
-            image: "assets/s36/78.jfif",
+            image: "assets/s36/78.png",
           },
           {
             id: 79,
@@ -7970,7 +7970,7 @@ export class FakeDataService {
             description: "",
             price: 1.50,
             count: 0,
-            image: "assets/s36/80.jfif",
+            image: "assets/s36/80.png",
           },
           {
             id: 81,
@@ -7979,7 +7979,7 @@ export class FakeDataService {
             description: "",
             price: 8.00,
             count: 0,
-            image: "assets/s36/81.jfif",
+            image: "assets/s36/81.png",
           },
           {
             id: 82,
@@ -7988,7 +7988,7 @@ export class FakeDataService {
             description: "",
             price: 6.80,
             count: 0,
-            image: "assets/s36/82.jfif",
+            image: "assets/s36/82.png",
           },
           {
             id: 83,
@@ -8015,7 +8015,7 @@ export class FakeDataService {
             description: "",
             price: 20.00,
             count: 0,
-            image: "assets/s36/85.jfif",
+            image: "assets/s36/85.png",
           },
           {
             id: 86,
@@ -8024,7 +8024,7 @@ export class FakeDataService {
             description: "",
             price: 23.00,
             count: 0,
-            image: "assets/s36/86.jfif",
+            image: "assets/s36/86.png",
           },
           {
             id: 87,
@@ -8033,7 +8033,7 @@ export class FakeDataService {
             description: "",
             price: 10.90,
             count: 0,
-            image: "assets/s36/87.jfif",
+            image: "assets/s36/87.png",
           },
           {
             id: 88,
@@ -8042,7 +8042,7 @@ export class FakeDataService {
             description: "",
             price: 7.90,
             count: 0,
-            image: "assets/s36/88.jfif",
+            image: "assets/s36/88.png",
           },
           {
             id: 89,
@@ -8051,7 +8051,7 @@ export class FakeDataService {
             description: "",
             price: 30.00,
             count: 0,
-            image: "assets/s36/89.jfif",
+            image: "assets/s36/89.png",
           },
           {
             id: 90,
@@ -8132,7 +8132,7 @@ export class FakeDataService {
             description: "",
             price: 12.90,
             count: 0,
-            image: "assets/s36/98.jfif",
+            image: "assets/s36/98.png",
           },
           {
             id: 99,
@@ -8141,7 +8141,7 @@ export class FakeDataService {
             description: "",
             price: 5.00,
             count: 0,
-            image: "assets/s36/99.jfif",
+            image: "assets/s36/99.png",
           },
           {
             id: 100,
@@ -8159,7 +8159,7 @@ export class FakeDataService {
             description: "",
             price: 12.90,
             count: 0,
-            image: "assets/s36/101.jfif",
+            image: "assets/s36/101.webp",
           },
           {
             id: 102,
@@ -8168,7 +8168,7 @@ export class FakeDataService {
             description: "",
             price: 39.90,
             count: 0,
-            image: "assets/s36/102.jfif",
+            image: "assets/s36/102.png",
           },
           {
             id: 103,
@@ -8177,7 +8177,7 @@ export class FakeDataService {
             description: "",
             price: 15.50,
             count: 0,
-            image: "assets/s36/103.jfif",
+            image: "assets/s36/103.png",
           },
           {
             id: 104,
@@ -8186,7 +8186,7 @@ export class FakeDataService {
             description: "",
             price: 9.60,
             count: 0,
-            image: "assets/s36/104.jfif",
+            image: "assets/s36/104.webp",
           },
           {
             id: 105,
@@ -8195,7 +8195,7 @@ export class FakeDataService {
             description: "",
             price: 9.60,
             count: 0,
-            image: "assets/s36/105.jfif",
+            image: "assets/s36/105.png",
           },
           {
             id: 106,
@@ -8204,7 +8204,7 @@ export class FakeDataService {
             description: "",
             price: 9.60,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/106.jfif",
           },
           {
             id: 107,
@@ -8213,7 +8213,7 @@ export class FakeDataService {
             description: "",
             price: 12.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/107.jfif",
           },
           {
             id: 108,
@@ -8222,7 +8222,7 @@ export class FakeDataService {
             description: "",
             price: 12.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/108.jfif",
           },
           {
             id: 109,
@@ -8231,7 +8231,7 @@ export class FakeDataService {
             description: "",
             price: 12.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/109.jfif",
           },
           {
             id: 110,
@@ -8240,7 +8240,7 @@ export class FakeDataService {
             description: "",
             price: 4.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/110.jfif",
           },
           {
             id: 111,
@@ -8249,7 +8249,7 @@ export class FakeDataService {
             description: "",
             price: 4.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/111.jfif",
           },
           {
             id: 112,
@@ -8258,7 +8258,7 @@ export class FakeDataService {
             description: "",
             price: 4.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/112.jfif",
           },
           {
             id: 113,
@@ -8267,7 +8267,7 @@ export class FakeDataService {
             description: "",
             price: 33.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/113.jfif",
           },
           {
             id: 114,
@@ -8276,7 +8276,7 @@ export class FakeDataService {
             description: "",
             price: 9.80,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/114.jfif",
           },
           {
             id: 115,
@@ -8285,7 +8285,7 @@ export class FakeDataService {
             description: "",
             price: 18.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/115.jfif",
           },
           {
             id: 116,
@@ -8294,7 +8294,7 @@ export class FakeDataService {
             description: "",
             price: 4.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/116.jfif",
           },
           {
             id: 117,
@@ -8303,7 +8303,7 @@ export class FakeDataService {
             description: "",
             price: 20.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/117.jfif",
           },
           {
             id: 118,
@@ -8312,7 +8312,7 @@ export class FakeDataService {
             description: "",
             price: 4.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/118.jfif",
           },
           {
             id: 119,
@@ -8321,7 +8321,7 @@ export class FakeDataService {
             description: "",
             price: 1.70,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/119.jfif",
           },
           {
             id: 120,
@@ -8330,7 +8330,7 @@ export class FakeDataService {
             description: "",
             price: 5.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/120.jfif",
           },
           {
             id: 121,
@@ -8339,7 +8339,7 @@ export class FakeDataService {
             description: "",
             price: 1.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/121.jfif",
           },
           {
             id: 122,
@@ -8348,7 +8348,7 @@ export class FakeDataService {
             description: "",
             price: 3.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/122.png",
           },
           {
             id: 123,
@@ -8357,7 +8357,7 @@ export class FakeDataService {
             description: "",
             price: 3.80,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/123.jfif",
           },
           {
             id: 124,
@@ -8366,7 +8366,7 @@ export class FakeDataService {
             description: "",
             price: 12.40,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/124.png",
           },
           {
             id: 125,
@@ -8375,7 +8375,7 @@ export class FakeDataService {
             description: "",
             price: 17.80,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/125.jfif",
           },
           {
             id: 126,
@@ -8384,7 +8384,7 @@ export class FakeDataService {
             description: "",
             price: 11.20,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/126.png",
           },
           {
             id: 127,
@@ -8393,7 +8393,7 @@ export class FakeDataService {
             description: "",
             price: 5.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/127.jfif",
           },
           {
             id: 128,
@@ -8402,7 +8402,7 @@ export class FakeDataService {
             description: "",
             price: 12.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/128.jfif",
           },
           {
             id: 129,
@@ -8411,7 +8411,7 @@ export class FakeDataService {
             description: "",
             price: 6.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/129.jfif",
           },
           {
             id: 130,
@@ -8420,7 +8420,7 @@ export class FakeDataService {
             description: "",
             price: 9.80,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/130.webp",
           },
           {
             id: 131,
@@ -8429,7 +8429,7 @@ export class FakeDataService {
             description: "",
             price: 12.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/131.jfif",
           },
           {
             id: 132,
@@ -8438,7 +8438,7 @@ export class FakeDataService {
             description: "",
             price: 6.60,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/132.jfif",
           },
           {
             id: 133,
@@ -8447,7 +8447,7 @@ export class FakeDataService {
             description: "",
             price: 15.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/133.jfif",
           },
           {
             id: 134,
@@ -8456,7 +8456,7 @@ export class FakeDataService {
             description: "",
             price: 8.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/134.jfif",
           },
           {
             id: 135,
@@ -8465,7 +8465,7 @@ export class FakeDataService {
             description: "",
             price: 3.20,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/135.jfif",
           },
           {
             id: 136,
@@ -8474,7 +8474,7 @@ export class FakeDataService {
             description: "",
             price: 10.60,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/136.jfif",
           },
           {
             id: 137,
@@ -8483,7 +8483,7 @@ export class FakeDataService {
             description: "",
             price: 9.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/137.jfif",
           },
           {
             id: 138,
@@ -8492,7 +8492,7 @@ export class FakeDataService {
             description: "",
             price: 8.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/138.jfif",
           },
           {
             id: 139,
@@ -8501,7 +8501,7 @@ export class FakeDataService {
             description: "",
             price: 20.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/139.jfif",
           },
           {
             id: 140,
@@ -8510,7 +8510,7 @@ export class FakeDataService {
             description: "",
             price: 18.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/140.jfif",
           },
           {
             id: 141,
@@ -8519,7 +8519,7 @@ export class FakeDataService {
             description: "",
             price: 7.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/141.jfif",
           },
           {
             id: 142,
@@ -8528,7 +8528,7 @@ export class FakeDataService {
             description: "",
             price: 5.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/142.jfif",
           },
           {
             id: 143,
@@ -8537,7 +8537,7 @@ export class FakeDataService {
             description: "",
             price: 18.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/143.jfif",
           },
           {
             id: 144,
@@ -8546,7 +8546,7 @@ export class FakeDataService {
             description: "",
             price: 9.80,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/144.jfif",
           },
           {
             id: 145,
@@ -8555,7 +8555,7 @@ export class FakeDataService {
             description: "",
             price: 12.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/145.jfif",
           },
           {
             id: 146,
@@ -8564,7 +8564,7 @@ export class FakeDataService {
             description: "",
             price: 12.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/146.jfif",
           },
           {
             id: 147,
@@ -8573,7 +8573,7 @@ export class FakeDataService {
             description: "",
             price: 6.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/147.jfif",
           },
           {
             id: 148,
@@ -8582,7 +8582,7 @@ export class FakeDataService {
             description: "",
             price: 58,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/148.png",
           },
           {
             id: 149,
@@ -8591,7 +8591,7 @@ export class FakeDataService {
             description: "",
             price: 16.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/149.jfif",
           },
           {
             id: 150,
@@ -8600,7 +8600,7 @@ export class FakeDataService {
             description: "",
             price: 30.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/150.jfif",
           },
           {
             id: 151,
@@ -8609,7 +8609,7 @@ export class FakeDataService {
             description: "",
             price: 36.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/151.jfif",
           },
           {
             id: 152,
@@ -8618,7 +8618,7 @@ export class FakeDataService {
             description: "",
             price: 12.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/152.jfif",
           },
           {
             id: 153,
@@ -8627,7 +8627,7 @@ export class FakeDataService {
             description: "",
             price: 3.80,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/153.jfif",
           },
           {
             id: 154,
@@ -8636,7 +8636,7 @@ export class FakeDataService {
             description: "",
             price: 12.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/154.jfif",
           },
           {
             id: 155,
@@ -8645,7 +8645,7 @@ export class FakeDataService {
             description: "",
             price: 8.99,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/155.png",
           },
           {
             id: 156,
@@ -8654,7 +8654,7 @@ export class FakeDataService {
             description: "",
             price: 2.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/156.jfif",
           },
           {
             id: 157,
@@ -8663,7 +8663,7 @@ export class FakeDataService {
             description: "",
             price: 5.20,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/157.jfif",
           },
           {
             id: 158,
@@ -8672,7 +8672,7 @@ export class FakeDataService {
             description: "",
             price: 17.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/158.png",
           },
           {
             id: 159,
@@ -8681,7 +8681,7 @@ export class FakeDataService {
             description: "",
             price: 16.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/159.jfif",
           },
           {
             id: 160,
@@ -8690,7 +8690,7 @@ export class FakeDataService {
             description: "",
             price: 30.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/160.jfif",
           },
           {
             id: 161,
@@ -8699,7 +8699,7 @@ export class FakeDataService {
             description: "",
             price: 5.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/161.png",
           },
           {
             id: 162,
@@ -8708,7 +8708,7 @@ export class FakeDataService {
             description: "",
             price: 8.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/162.png",
           },
           {
             id: 163,
@@ -8717,7 +8717,7 @@ export class FakeDataService {
             description: "",
             price: 5.80,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/163.jfif",
           },
           {
             id: 164,
@@ -8726,7 +8726,7 @@ export class FakeDataService {
             description: "",
             price: 8.80,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/164.png",
           },
           {
             id: 165,
@@ -8735,7 +8735,7 @@ export class FakeDataService {
             description: "",
             price: 6.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/165.jfif",
           },
           {
             id: 166,
@@ -8744,7 +8744,7 @@ export class FakeDataService {
             description: "",
             price: 3.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/166.jfif",
           },
           {
             id: 167,
@@ -8753,7 +8753,7 @@ export class FakeDataService {
             description: "",
             price: 9.70,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/167.jfif",
           },
           {
             id: 168,
@@ -8762,7 +8762,7 @@ export class FakeDataService {
             description: "",
             price: 9.70,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/168.jfif",
           },
           {
             id: 169,
@@ -8771,7 +8771,7 @@ export class FakeDataService {
             description: "",
             price: 10.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/169.png",
           },
           {
             id: 170,
@@ -8780,7 +8780,7 @@ export class FakeDataService {
             description: "",
             price: 9.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/170.jfif",
           },
           {
             id: 171,
@@ -8789,7 +8789,7 @@ export class FakeDataService {
             description: "Frozen Whole Chicken Cut in 12 parts",
             price: 19.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/171.png",
           },
           {
             id: 172,
@@ -8798,7 +8798,7 @@ export class FakeDataService {
             description: "",
             price: 6.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/172.png",
           },
           {
             id: 173,
@@ -8807,7 +8807,7 @@ export class FakeDataService {
             description: "",
             price: 1.70,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/173.png",
           },
           {
             id: 174,
@@ -8816,7 +8816,7 @@ export class FakeDataService {
             description: "",
             price: 4.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/174.png",
           },
           {
             id: 175,
@@ -8825,7 +8825,7 @@ export class FakeDataService {
             description: "",
             price: 5.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/175.png",
           },
           {
             id: 176,
@@ -8834,7 +8834,7 @@ export class FakeDataService {
             description: "",
             price: 5.49,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/176.jfif",
           },
           {
             id: 177,
@@ -8843,7 +8843,7 @@ export class FakeDataService {
             description: "",
             price: 7.60,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/177.jfif",
           },
           {
             id: 178,
@@ -8852,7 +8852,7 @@ export class FakeDataService {
             description: "",
             price: 7.60,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/178.jfif",
           },
           {
             id: 179,
@@ -8861,7 +8861,7 @@ export class FakeDataService {
             description: "",
             price: 8.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/179.png",
           },
           {
             id: 180,
@@ -8870,7 +8870,7 @@ export class FakeDataService {
             description: "",
             price: 8.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/180.jfif",
           },
           {
             id: 181,
@@ -8879,7 +8879,7 @@ export class FakeDataService {
             description: "",
             price: 7.40,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/181.jfif",
           },
           {
             id: 182,
@@ -8888,7 +8888,7 @@ export class FakeDataService {
             description: "",
             price: 7.40,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/182.jfif",
           },
           {
             id: 183,
@@ -8897,7 +8897,7 @@ export class FakeDataService {
             description: "",
             price: 6.40,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/183.png",
           },
           {
             id: 184,
@@ -8906,7 +8906,7 @@ export class FakeDataService {
             description: "",
             price: 8.80,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/184.jfif",
           },
           {
             id: 185,
@@ -8915,7 +8915,7 @@ export class FakeDataService {
             description: "",
             price: 3.75,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/185.png",
           },
           {
             id: 186,
@@ -8924,7 +8924,7 @@ export class FakeDataService {
             description: "",
             price: 14.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/186.png",
           },
           {
             id: 187,
@@ -8933,7 +8933,7 @@ export class FakeDataService {
             description: "",
             price: 12.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/187.jfif",
           },
           {
             id: 188,
@@ -8942,7 +8942,7 @@ export class FakeDataService {
             description: "",
             price: 3.20,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/188.jfif",
           },
           {
             id: 189,
@@ -8951,7 +8951,7 @@ export class FakeDataService {
             description: "",
             price: 3.30,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/189.jfif",
           },
           {
             id: 190,
@@ -8960,7 +8960,7 @@ export class FakeDataService {
             description: "",
             price: 3.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/190.png",
           },
           {
             id: 191,
@@ -8969,7 +8969,7 @@ export class FakeDataService {
             description: "",
             price: 0.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/191.jfif",
           },
           {
             id: 192,
@@ -8978,7 +8978,7 @@ export class FakeDataService {
             description: "",
             price: 2.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/192.png",
           },
           {
             id: 193,
@@ -8987,7 +8987,7 @@ export class FakeDataService {
             description: "",
             price: 3.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/193.jfif",
           },
           {
             id: 194,
@@ -8996,7 +8996,7 @@ export class FakeDataService {
             description: "",
             price: 3.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/194.png",
           },
           {
             id: 195,
@@ -9005,7 +9005,7 @@ export class FakeDataService {
             description: "",
             price: 7.99,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/195.jfif",
           },
           {
             id: 196,
@@ -9014,7 +9014,7 @@ export class FakeDataService {
             description: "",
             price: 3.95,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/196.png",
           },
           {
             id: 197,
@@ -9023,7 +9023,7 @@ export class FakeDataService {
             description: "",
             price: 3.95,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/197.png",
           },
           {
             id: 198,
@@ -9032,7 +9032,7 @@ export class FakeDataService {
             description: "",
             price: 3.95,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/198.jfif",
           },
           {
             id: 199,
@@ -9041,7 +9041,7 @@ export class FakeDataService {
             description: "",
             price: 6.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/199.jfif",
           },
           {
             id: 200,
@@ -9050,7 +9050,7 @@ export class FakeDataService {
             description: "",
             price: 10.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/200.png",
           },
           {
             id: 201,
@@ -9059,7 +9059,7 @@ export class FakeDataService {
             description: "",
             price: 9.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/201.jfif",
           },
           {
             id: 202,
@@ -9068,7 +9068,7 @@ export class FakeDataService {
             description: "",
             price: 23.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/202.jfif",
           },
           {
             id: 203,
@@ -9077,7 +9077,7 @@ export class FakeDataService {
             description: "",
             price: 9.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/203.jfif",
           },
           {
             id: 204,
@@ -9086,7 +9086,7 @@ export class FakeDataService {
             description: "",
             price: 29.80,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/204.jfif",
           },
           {
             id: 205,
@@ -9095,7 +9095,7 @@ export class FakeDataService {
             description: "",
             price: 4.20,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/205.jfif",
           },
           {
             id: 206,
@@ -9104,7 +9104,7 @@ export class FakeDataService {
             description: "",
             price: 16.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/206.jfif",
           },
           {
             id: 207,
@@ -9113,7 +9113,7 @@ export class FakeDataService {
             description: "",
             price: 16.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/207.jfif",
           },
           {
             id: 208,
@@ -9122,7 +9122,7 @@ export class FakeDataService {
             description: "",
             price: 8.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/208.jfif",
           },
           {
             id: 209,
@@ -9131,7 +9131,7 @@ export class FakeDataService {
             description: "",
             price: 15.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/209.jfif",
           },
           {
             id: 210,
@@ -9140,7 +9140,7 @@ export class FakeDataService {
             description: "",
             price: 17.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/210.jfif",
           },
           {
             id: 211,
@@ -9149,7 +9149,7 @@ export class FakeDataService {
             description: "",
             price: 23.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/211.jfif",
           },
           {
             id: 212,
@@ -9158,7 +9158,7 @@ export class FakeDataService {
             description: "",
             price: 23.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/212.jfif",
           },
           {
             id: 213,
@@ -9167,7 +9167,7 @@ export class FakeDataService {
             description: "",
             price: 8.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/213.jfif",
           },
           {
             id: 214,
@@ -9176,7 +9176,7 @@ export class FakeDataService {
             description: "",
             price: 14.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/214.jfif",
           },
           {
             id: 215,
@@ -9185,7 +9185,7 @@ export class FakeDataService {
             description: "",
             price: 28.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/215.jfif",
           },
           {
             id: 216,
@@ -9194,7 +9194,7 @@ export class FakeDataService {
             description: "",
             price: 22.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/216.jfif",
           },
           {
             id: 217,
@@ -9203,7 +9203,7 @@ export class FakeDataService {
             description: "",
             price: 22.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/217.jfif",
           },
           {
             id: 218,
@@ -9212,7 +9212,7 @@ export class FakeDataService {
             description: "",
             price: 22.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/218.jfif",
           },
           {
             id: 219,
@@ -9221,7 +9221,7 @@ export class FakeDataService {
             description: "",
             price: 7.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/219.jfif",
           },
           {
             id: 220,
@@ -9230,7 +9230,7 @@ export class FakeDataService {
             description: "",
             price: 18.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/220.jfif",
           },
           {
             id: 221,
@@ -9239,7 +9239,7 @@ export class FakeDataService {
             description: "",
             price: 18.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/221.png",
           },
           {
             id: 222,
@@ -9248,7 +9248,7 @@ export class FakeDataService {
             description: "",
             price: 18.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/222.png",
           },
           {
             id: 223,
@@ -9257,7 +9257,7 @@ export class FakeDataService {
             description: "",
             price: 3.65,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/223.jfif",
           },
           {
             id: 224,
@@ -9266,7 +9266,7 @@ export class FakeDataService {
             description: "",
             price: 9.20,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/224.png",
           },
           {
             id: 225,
@@ -9275,7 +9275,7 @@ export class FakeDataService {
             description: "",
             price: 10.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/225.jfif",
           },
           {
             id: 226,
@@ -9284,7 +9284,7 @@ export class FakeDataService {
             description: "",
             price: 5.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/226.jfif",
           },
           {
             id: 227,
@@ -9293,7 +9293,7 @@ export class FakeDataService {
             description: "",
             price: 33.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/227.jfif",
           },
           {
             id: 228,
@@ -9302,7 +9302,7 @@ export class FakeDataService {
             description: "",
             price: 12.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/228.jfif",
           },
           {
             id: 229,
@@ -9311,7 +9311,7 @@ export class FakeDataService {
             description: "Package include: 500g of Round Cabbage, 500g of Cucumber, 500g of Carrot, 250g of Raw Peanut, 250g of Fried Onion,  250g of Garlic, 250g of Galangal,  100g of Dried Chili",
             price: 22.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/229.jfif",
           },
           {
             id: 230,
@@ -9320,7 +9320,7 @@ export class FakeDataService {
             description: "Package include: 1packet of Mak Nyonya Asam Pedas Cooking Paste, +/- 500g of Ikan Tenggiri, 100g of Tomato, 100g of Red Onion, 100g of Lady Finger",
             price: 29.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/230.jfif",
           },
           {
             id: 231,
@@ -9329,7 +9329,7 @@ export class FakeDataService {
             description: "Package include: 3packets of Hong Kong Kailan, 4pcs of Hard Tofu, 100g of Dried Shrimp, 100g of Green Chili Padi, 250g of Garlic",
             price: 30.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/231.jfif",
           },
           {
             id: 232,
@@ -9338,7 +9338,7 @@ export class FakeDataService {
             description: "Package include:  4pcs of Hard Tofu, 1packet of Tofu Puff, 250g of French Bean, 500g Round Cabbage, 500g of Carrot, 250g of Red Chili, 100g of Ginger, 3pcs of Lemongrass",
             price: 28.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/232.jfif",
           },
           {
             id: 233,
@@ -9347,7 +9347,7 @@ export class FakeDataService {
             description: "Package include: 1packet of Cauliflower, 500g of Garlic, 500g of Yellow Onion, 1packet of Shitake Mushroom, 500g of Spinach",
             price: 25.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/233.jfif",
           },
           {
             id: 234,
@@ -9356,7 +9356,7 @@ export class FakeDataService {
             description: "",
             price: 5.99,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/234.jfif",
           },
           {
             id: 235,
@@ -9365,7 +9365,7 @@ export class FakeDataService {
             description: "",
             price: 8.69,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/235.png",
           },
           {
             id: 236,
@@ -9374,7 +9374,7 @@ export class FakeDataService {
             description: "",
             price: 11.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/236.png",
           },
           {
             id: 237,
@@ -9383,7 +9383,7 @@ export class FakeDataService {
             description: "",
             price: 5.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/237.jfif",
           },
           {
             id: 238,
@@ -9392,7 +9392,7 @@ export class FakeDataService {
             description: "",
             price: 4.99,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/238.jfif",
           },
           {
             id: 239,
@@ -9401,7 +9401,7 @@ export class FakeDataService {
             description: "",
             price: 4.99,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/239.png",
           },
           {
             id: 240,
@@ -9410,7 +9410,7 @@ export class FakeDataService {
             description: "Donation CarePack for PPR, Red Cross, Police & Hospitals, Communities and refugees.  -50 packs of Mix vegetables & fruits *Pls select self-pickup option for this. we will deliver the items to the respective parties complimentary.Thanks for your support. #kitajagakita,#epetanimalaysia",
             price: 1000.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/240.png",
           },
           {
             id: 241,
@@ -9419,7 +9419,7 @@ export class FakeDataService {
             description: "",
             price: 16.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/241.jfif",
           },
           {
             id: 242,
@@ -9428,7 +9428,7 @@ export class FakeDataService {
             description: "Agroz grows clean, fresh and happy vegetables using advanced technology, precision controlled indoor vertical farm. The vegetables are grown in a safe and sustainable manner with Non-GMO seeds using organic nutrients that are free from harmful chemicals and no pesticides. What makes the vegetables from Agroz unique you ask?, 1. They're farmed vertically indoor, 2. No pesticide, fungicide, & herbicide, 3. They listen to more classical music than you do!, Fun fact: Studies have shown veggies that 'listens' to music grow faster and healthier!, Some also say that this makes the veggies tastier and more flavorful. Wondering if this is true? Try it now to find out. 😉",
             price: 11.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/242.jfif",
           },
           {
             id: 243,
@@ -9437,7 +9437,7 @@ export class FakeDataService {
             description: "a.k.a Green Coral  Agroz grows clean, fresh and happy vegetables using advanced technology, precision controlled indoor vertical farm. The vegetables are grown in a safe and sustainable manner with Non-GMO seeds using organic nutrients that are free from harmful chemicals and no pesticides.  What makes the vegetables from Agroz unique you ask?, 1. They're farmed vertically indoor, 2. No pesticide, fungicide, & herbicide, 3. They listen to more classical music than you do!, Fun fact: Studies have shown veggies that 'listens' to music grow faster and healthier!, Some also say that this makes the veggies tastier and more flavorful. Wondering if this is true? Try it now to find out. 😉",
             price: 9.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/243.jfif",
           },
           {
             id: 244,
@@ -9446,7 +9446,7 @@ export class FakeDataService {
             description: "Agroz grows clean, fresh and happy vegetables using advanced technology, precision controlled indoor vertical farm. The vegetables are grown in a safe and sustainable manner with Non-GMO seeds using organic nutrients that are free from harmful chemicals and no pesticides.  What makes the vegetables from Agroz unique you ask? 1. They're farmed vertically indoor,  2. No pesticide, fungicide, & herbicide,  3. They listen to more classical music than you do!  Fun fact: Studies have shown veggies that 'listens' to music grow faster and healthier!  Some also say that this makes the veggies tastier and more flavorful. Wondering if this is true? Try it now to find out. 😉",
             price: 9.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/244.jfif",
           },
           {
             id: 245,
@@ -9455,7 +9455,7 @@ export class FakeDataService {
             description: "",
             price: 14.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/245.jfif",
           },
           {
             id: 246,
@@ -9464,7 +9464,7 @@ export class FakeDataService {
             description: "Terrenganu Sweet Rock Melon  Limited stock available! Guaranteed sweetness Rm19.90 per pcs (1-1.2kg) Available for delivery Tuesday onwards. Book and purchase now",
             price: 19.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/246.jfif",
           },
           {
             id: 247,
@@ -9473,7 +9473,7 @@ export class FakeDataService {
             description: "Cempedak from jelebu farm",
             price: 45.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/247.jfif",
           },
           {
             id: 248,
@@ -9482,7 +9482,7 @@ export class FakeDataService {
             description: "Boiled Sugarcane by Mdm Yap in Jelebu Farm,  2kg+- Per Bundle, RM15 per bundle, Already washed and scrubbed, can take home, smash it with hammer & boil.",
             price: 15.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/248.jfif",
           },
           {
             id: 249,
@@ -9491,7 +9491,7 @@ export class FakeDataService {
             description: "",
             price: 20.00,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/249.jfif",
           },
           {
             id: 250,
@@ -9500,7 +9500,7 @@ export class FakeDataService {
             description: "",
             price: 3.30,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/250.jfif",
           },
           {
             id: 251,
@@ -9509,7 +9509,7 @@ export class FakeDataService {
             description: "",
             price: 3.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/251.jfif",
           },
           {
             id: 252,
@@ -9518,7 +9518,7 @@ export class FakeDataService {
             description: "",
             price: 10.50,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/252.jfif",
           },
           {
             id: 253,
@@ -9527,7 +9527,7 @@ export class FakeDataService {
             description: "",
             price: 14.90,
             count: 0,
-            image: "assets/s36/.jfif",
+            image: "assets/s36/253.jfif",
           },
         ],
       },
