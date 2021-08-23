@@ -9674,6 +9674,68 @@ export class FakeDataService {
           },
         ],
       },
+      // Store #38
+      {
+        id: 'ZE00291',
+        name: "Aibakee",
+        raddress: 'Klang Valley',
+        reviewsCount: 4,
+        qualification: 5,
+        openingHour: 10,
+        backgroundImage: 'assets/s38/Logo/Aibakee-background.jpg',
+        avatarImage: 'assets/s38/Logo/Aibakee-background.jpg',
+        logo: 'assets/s38/Logo/Aibakee-Logo.png',
+        icon: '',
+        phoneNumber: '60147375085',
+        deliveryFee: 0.00,
+        deliverytype: 'Self pickup/Delivery',
+        image: 'assets/s38/Logo/Aibakee-Logo.png',
+        categories: [
+          {
+            id: 1,
+            title: "Main",
+            active: true,
+          },
+        ],
+        plates: [
+          {
+            id: 1,
+            categoryId: 2,
+            name: " Snow flakes - Original Flavor",
+            description: "Handmade, Crips, No Perservatives, High Nutritional. 300g 1 pack, 12 pieces. 1 pack RM30; 2 packs RM55. More than 5 packs free delivery.",
+            price: 30.00,
+            count: 0,
+            image: "assets/s38/Aibakee-SKU1.jpg",
+          },
+          {
+            id: 2,
+            categoryId: 2,
+            name: " Snow flakes - Matcha Flavor",
+            description: "Handmade, Crips, No Perservatives, High Nutritional. 300g 1 pack, 12 pieces. 1 pack RM30; 2 packs RM55. More than 5 packs free delivery.",
+            price: 30.00,
+            count: 0,
+            image: "assets/s38/Aibakee-SKU2.jpg",
+          },
+          {
+            id: 3,
+            categoryId: 2,
+            name: "Snow flakes - Cocoa Flavor",
+            description: "Handmade, Crips, No Perservatives, High Nutritional. 300g 1 pack, 12 pieces. 1 pack RM30; 2 packs RM55. More than 5 packs free delivery.",
+            price: 30.00,
+            count: 0,
+            image: "assets/s38/Aibakee-SKU3.jpg",
+          },
+          {
+            id: 4,
+            categoryId: 2,
+            name: "Snow flakes - Oreo Flavor ",
+            description: "Handmade, Crips, No Perservatives, High Nutritional. 300g 1 pack, 12 pieces.  1 pack RM30; 2 packs RM55. More than 5 packs free delivery.",
+            price: 30.00,
+            count: 0,
+            image: "assets/s38/Aibakee-SKU4.jpg",
+          },
+        ],
+      },
     ];
   }
 }
