@@ -12534,7 +12534,7 @@ export class FakeDataService {
             description: "",
             price: 4.00,
             count: 0,
-            image: "assets/s57/13.jpg",
+            image: "assets/s57/13.JPG",
           },
           {
             id: 14,
@@ -12582,14 +12582,14 @@ export class FakeDataService {
         reviewsCount: 4,
         qualification: 5,
         openingHour: 10,
-        backgroundImage: '',
-        avatarImage: '',
-        logo: '',
+        backgroundImage: 'assets/s58/banner.jpg',
+        avatarImage: 'assets/s58/banner.jpg',
+        logo: 'assets/s58/logo.jpg',
         icon: '',
         phoneNumber: '601140772114',
         deliveryFee: 0.00,
         deliverytype: 'Self pickup/Delivery',
-        image: '',
+        image: 'assets/s58/logo.jpg',
         categories: [
           {
             id: 1,
