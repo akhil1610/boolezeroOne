@@ -12880,7 +12880,7 @@ export class FakeDataService {
             description: "",
             price: 6.00,
             count: 0,
-            image: "assets/s59/19.jpg",
+            image: "assets/s59/19.png",
           },
           {
             id: 20,
@@ -12889,7 +12889,7 @@ export class FakeDataService {
             description: "",
             price: 6.00,
             count: 0,
-            image: "assets/s59/20.jpg",
+            image: "assets/s59/20.png",
           },
           {
             id: 21,
@@ -12898,7 +12898,7 @@ export class FakeDataService {
             description: "",
             price: 6.00,
             count: 0,
-            image: "assets/s59/21.jpg",
+            image: "assets/s59/21.png",
           },
         ],
       },
