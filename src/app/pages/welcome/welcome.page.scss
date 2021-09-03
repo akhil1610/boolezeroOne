@@ -46,7 +46,6 @@
 .welcome-main{
   overflow-y: auto;
   background-color: #ffffff !important;
-  -webkit-tap-highlight-color: #ffffff !important;
 }
 
 .space-between-blocks {
@@ -59,93 +58,93 @@
   box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
   transition: all 0.3s cubic-bezier(.25,.8,.25,1);
 } */
-.sectionfaq{
-  width: 100%;
-  height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+// .sectionfaq{
+//   width: 100%;
+//   height: 100vh;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
 
-}
-.containerfaq{
-   width: 100%;
-   max-width: 80rem;
-   margin: 0 auto;
-   padding:0 1.5rem;
+// }
+// .containerfaq{
+//    width: 100%;
+//    max-width: 80rem;
+//    margin: 0 auto;
+//    padding:0 1.5rem;
 
-}
-.accordion-item{
-  background-color: #33c58d;
-  border-radius: .4rem;
-  margin-bottom: 1rem;
-  padding:1rem;
-  box-shadow: .5rem 2px .5rem rgba(0,0,0,0.1);
+// }
+// .accordion-item{
+//   background-color: #33c58d;
+//   border-radius: .4rem;
+//   margin-bottom: 1rem;
+//   padding:1rem;
+//   box-shadow: .5rem 2px .5rem rgba(0,0,0,0.1);
 
-}
-.accordion-link{
-  font-size: 1rem;
-  color: rgba(255, 255, 255, 0.8);
-  text-decoration: none;
-  background-color: #283042;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding : 1rem 0;
-}
+// }
+// .accordion-link{
+//   font-size: 1rem;
+//   color: rgba(255, 255, 255, 0.8);
+//   text-decoration: none;
+//   background-color: #283042;
+//   width: 100%;
+//   display: flex;
+//   align-items: center;
+//   justify-content: space-between;
+//   padding : 1rem 0;
+// }
 
-.accordion-link:hover{
-  text-decoration: none;
-  color: #ccc;
-}
-.accordion-link i{
-  color: #e44126;
-  padding : .5rem;
-}
-.accordion-link .fa-minus{
-  display: none;
-}
+// .accordion-link:hover{
+//   text-decoration: none;
+//   color: #ccc;
+// }
+// .accordion-link i{
+//   color: #e44126;
+//   padding : .5rem;
+// }
+// .accordion-link .fa-minus{
+//   display: none;
+// }
 
-.answer{
-  max-height: 0;
-  overflow: hidden;
-  position: relative;
-  background-color: #e44126;
-  transition: max-height 650ms;
+// .answer{
+//   max-height: 0;
+//   overflow: hidden;
+//   position: relative;
+//   background-color: #e44126;
+//   transition: max-height 650ms;
   
   
-}
-.answer::before{
-  content: "";
-  position: absolute;
-  width: .6rem;
-  height: 90%;
-  background-color: #2629e4;
-  top: 50%;
-  left: 0;
-  transform: translateY(-50%);
-}
-.answer p{
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 1rem;
-  padding:2rem;
-}
+// }
+// .answer::before{
+//   content: "";
+//   position: absolute;
+//   width: .6rem;
+//   height: 90%;
+//   background-color: #2629e4;
+//   top: 50%;
+//   left: 0;
+//   transform: translateY(-50%);
+// }
+// .answer p{
+//   color: rgba(255, 255, 255, 0.6);
+//   font-size: 1rem;
+//   padding:2rem;
+// }
 
-.accordion-item:target .answer{
-max-height: 20rem;
-}
+// .accordion-item:target .answer{
+// max-height: 20rem;
+// }
 
-.accordion-item:target .accordion-link .fa-plus{
-  display: none;
-}
-.accordion-item:target .accordion-link .fa-minus{
-  display: block;
-}
+// .accordion-item:target .accordion-link .fa-plus{
+//   display: none;
+// }
+// .accordion-item:target .accordion-link .fa-minus{
+//   display: block;
+// }
 
-.pricing-container:active 
-.pricing-container:hover {
-  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
-}
+// .pricing-container:active 
+// .pricing-container:hover {
+//   box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+// }
 
 .sticky-top{
   position: sticky;
@@ -170,12 +169,12 @@ max-height: 20rem;
 
 /* ----------------- BUTTONS ------------------- */
 
-button {
-  color: inherit;
-  padding: 0;
-  background: none;
-  border: none;
-}
+// button {
+//   color: inherit;
+//   padding: 0;
+//   background: none;
+//   border: none;
+// }
 .g-i-t-m{
   margin: 2% 0 0 9%;
 }
@@ -360,16 +359,12 @@ button:focus {
   text-align: initial;
   padding-top: 2rem;
   padding-bottom: 3rem;
-  -webkit-tap-highlight-color: #ffffff !important;
-
 }
 
 @media(min-width:992px) {
   .hero__content {
     padding-top: 4rem;
     padding-bottom: 5rem;
-  -webkit-tap-highlight-color: #ffffff !important;
-
   }
 }
 
