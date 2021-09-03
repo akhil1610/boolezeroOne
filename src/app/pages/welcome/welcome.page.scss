@@ -360,12 +360,16 @@ button:focus {
   text-align: initial;
   padding-top: 2rem;
   padding-bottom: 3rem;
+  -webkit-tap-highlight-color: #ffffff !important;
+
 }
 
 @media(min-width:992px) {
   .hero__content {
     padding-top: 4rem;
     padding-bottom: 5rem;
+  -webkit-tap-highlight-color: #ffffff !important;
+
   }
 }
 
